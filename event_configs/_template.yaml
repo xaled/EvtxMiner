@@ -71,6 +71,6 @@ values:
     extract: "/Event/EventData/Data[@Name=\"FieldName\"]"
   -
     name: payload
-    or:
+    options:
       - _payload_option1
       - _payload_option2
