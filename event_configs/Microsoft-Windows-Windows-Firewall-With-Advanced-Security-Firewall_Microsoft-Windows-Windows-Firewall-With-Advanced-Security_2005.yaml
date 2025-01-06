@@ -1,0 +1,81 @@
+author: peter.snyder@kroll.com, Hyun Yi @hyuunnn
+description: Mapping automatically converted from https://github.com/EricZimmerman/evtx/tree/master/evtx/Maps/Microsoft-Windows-Windows-Firewall-With-Advanced-Security-Firewall_Microsoft-Windows-Windows-Firewall-With-Advanced-Security_2005.map
+title: A rule has been modified in the Windows Defender Firewall exception list
+event_id: 2005
+channel: Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_type: null
+data_processing: null
+values:
+  - name: Direction
+    key: Direction
+    value_mapping:
+      '1': Inbound
+      '2': Outbound
+  - name: Action
+    key: Action
+    value_mapping:
+      '2': Block
+      '3': Allow
+  - name: Protocol
+    key: Protocol
+    value_mapping:
+      '0x00000006': TCP
+      '0x00000011': UDP
+      '0x00000100': All
+references:
+  - https://kb.eventtracker.com/evtpass/evtPages/EventId_2004_Microsoft-Windows-WindowsFirewallwithAdvancedS_65673.asp
+  - https://social.technet.microsoft.com/Forums/security/en-US/b1f62441-2c15-4706-b5f6-bb274bfed020/event-id-2004-and-2006-rules-created-automatically-on-windows-firewall?forum=winserversecurity
+  - https://nasbench.medium.com/finding-forensic-goodness-in-obscure-windows-event-logs-60e978ea45a3
+  - https://github.com/nasbench/EVTX-ETW-Resources/blob/main/ETWProvidersCSVs/Internal/Microsoft-Windows-Windows%20Firewall%20With%20Advanced%20Security.csv
+  - https://github.com/EricZimmerman/evtx/tree/master/evtx/Maps/Microsoft-Windows-Windows-Firewall-With-Advanced-Security-Firewall_Microsoft-Windows-Windows-Firewall-With-Advanced-Security_2005.map
+comments: []
+
+
+# Example Event Data:
+# <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+#   <System>
+#     <Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{GUID}" />
+#     <EventID>2005</EventID>
+#     <Version>0</Version>
+#     <Level>4</Level>
+#     <Task>0</Task>
+#     <Opcode>0</Opcode>
+#     <Keywords>0x8000020000000000</Keywords>
+#     <TimeCreated SystemTime="2020-12-12T07:32:38.9121196Z" />
+#     <EventRecordID>3509</EventRecordID>
+#     <Correlation />
+#     <Execution ProcessID="2964" ThreadID="22020" />
+#     <Channel>Microsoft-Windows-Windows Firewall With Advanced Security/Firewall</Channel>
+#     <Computer>ComputerName</Computer>
+#     <Security UserID="{UserID}" />
+#   </System>
+#   <EventData>
+#     <Data Name="RuleId">UDP Query User{~~~~}C:\users\hyuunnn\downloads\anydesk.exe</Data>
+#     <Data Name="RuleName">anydesk.exe</Data>
+#     <Data Name="Origin">1</Data>
+#     <Data Name="ApplicationPath">C:\users\hyuunnn\downloads\anydesk.exe</Data>
+#     <Data Name="ServiceName" />
+#     <Data Name="Direction">1</Data>
+#     <Data Name="Protocol">17</Data>
+#     <Data Name="LocalPorts">*</Data>
+#     <Data Name="RemotePorts">*</Data>
+#     <Data Name="Action">3</Data>
+#     <Data Name="Profiles">2</Data>
+#     <Data Name="LocalAddresses">*</Data>
+#     <Data Name="RemoteAddresses">*</Data>
+#     <Data Name="RemoteMachineAuthorizationList" />
+#     <Data Name="RemoteUserAuthorizationList" />
+#     <Data Name="EmbeddedContext" />
+#     <Data Name="Flags">257</Data>
+#     <Data Name="Active">1</Data>
+#     <Data Name="EdgeTraversal">3</Data>
+#     <Data Name="LooseSourceMapped">0</Data>
+#     <Data Name="SecurityOptions">0</Data>
+#     <Data Name="ModifyingUser">S-1-5-21-2856883770-2223847312-2813546713-1001</Data>
+#     <Data Name="ModifyingApplication">C:\Windows\System32\dllhost.exe</Data>
+#     <Data Name="SchemaVersion">522</Data>
+#     <Data Name="RuleStatus">65536</Data>
+#     <Data Name="LocalOnlyMapped">0</Data>
+#   </EventData>
+# </Event>

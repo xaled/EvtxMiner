@@ -1,0 +1,49 @@
+author: Tony Knutson
+description: Mapping automatically converted from https://github.com/EricZimmerman/evtx/tree/master/evtx/Maps/Microsoft-Windows-Windows-Firewall-With-Advanced-Security-Firewall_Microsoft-Windows-Windows-Firewall-With-Advanced-Security_2011.map
+title: Windows Firewall unable to notify user of blocked application
+event_id: 2011
+channel: Microsoft-Windows-Windows Firewall With Advanced Security/Firewall
+provider: Microsoft-Windows-Windows Firewall With Advanced Security
+event_type: null
+data_processing: null
+values:
+  - name: Protocol
+    key: Protocol
+    value_mapping:
+      '0x00000006': TCP
+      '0x00000011': UDP
+      '0x00000100': All
+references:
+  - https://kb.eventtracker.com/evtpass/evtPages/EventId_2011_Microsoft-Windows-WindowsFirewallwithAdvancedS_65744.asp
+  - https://github.com/EricZimmerman/evtx/tree/master/evtx/Maps/Microsoft-Windows-Windows-Firewall-With-Advanced-Security-Firewall_Microsoft-Windows-Windows-Firewall-With-Advanced-Security_2011.map
+comments: []
+
+
+# Example Event Data:
+# <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+#   <System>
+#     <Provider Name="Microsoft-Windows-Windows Firewall With Advanced Security" Guid="{d1bc9aff-2abf-4d71-9146-ecb2a986eb85}" />
+#     <EventID>2011</EventID>
+#     <Version>0</Version>
+#     <Level>4</Level>
+#     <Task>0</Task>
+#     <Opcode>0</Opcode>
+#     <Keywords>0x8000000000000000</Keywords>
+#     <TimeCreated SystemTime="" />
+#     <EventRecordID>13547</EventRecordID>
+#     <Correlation />
+#     <Execution ProcessID="2244" ThreadID="4172" />
+#     <Channel>Microsoft-Windows-Windows Firewall With Advanced Security/Firewall</Channel>
+#     <Computer>HOSTNAME</Computer>
+#     <Security UserID="S-1-5-19" />
+#   </System>
+#   <EventData>
+#    <Data Name="ReasonCode">64</Data>
+#    <Data Name="ApplicationPath">PATH</Data>
+#    <Data Name="IPVersion">0</Data>
+#    <Data Name="Protocol">6</Data>
+#    <Data Name="Port">5405</Data>
+#    <Data Name="ProcessId">11072</Data>
+#    <Data Name="ModifyingUser">SID EXECUTING</Data>
+#    </EventData>
+#  </Event>
