@@ -1,0 +1,768 @@
+channel,provider,event_id,title
+Security,Microsoft-Windows-Security-Auditing,4714,Data Recovery Agent group policy for Encrypting File System (EFS) has changed
+Security,Microsoft-Windows-Security-Auditing,4745,A security-disabled local group was changed
+Security,Microsoft-Windows-Security-Auditing,4616,The system time was changed
+Security,Microsoft-Windows-Security-Auditing,5479,The IPsec Policy Agent service was stopped.
+Security,Microsoft-Windows-Security-Auditing,4875,Certificate Services received a request to shut down
+Security,Microsoft-Windows-Security-Auditing,4879,Certificate Services restore completed
+Security,Microsoft-Windows-Security-Auditing,5478,The IPsec Policy Agent service was started.
+Security,Microsoft-Windows-Security-Auditing,4703,A token right was adjusted
+Security,Microsoft-Windows-Security-Auditing,5136,A directory service object was modified
+Security,Microsoft-Windows-Security-Auditing,5144,A network share object was deleted
+Security,Microsoft-Windows-Security-Auditing,4826,Boot Configuration Data loaded
+Security,Microsoft-Windows-Security-Auditing,4712,IPsec Policy Agent encountered a potentially serious failure
+Security,Microsoft-Windows-Security-Auditing,5156,The Windows Filtering Platform has allowed a connection.
+Security,Microsoft-Windows-Security-Auditing,4886,Certificate Services received a certificate request
+Security,Microsoft-Windows-Security-Auditing,5034,The Windows Firewall Driver was stopped.
+Security,Microsoft-Windows-Security-Auditing,4962,IPsec dropped an inbound packet that failed a replay check
+Security,Microsoft-Windows-Security-Auditing,5127,The OCSP Revocation Provider successfully updated the revocation information.
+Security,Microsoft-Windows-Security-Auditing,4873,A certificate request extension changed
+Security,Microsoft-Windows-Security-Auditing,5059,Key migration operation.
+Security,Microsoft-Windows-Security-Auditing,4634,An account was logged off
+Security,Microsoft-Windows-Security-Auditing,5050,An attempt to programmatically disable Windows Firewall was rejected.
+Security,Microsoft-Windows-Security-Auditing,4707,A trust to a domain was removed
+Security,Microsoft-Windows-Security-Auditing,4822,NTLM authentication failed because the account was a member of the Protected User group
+Security,Microsoft-Windows-Security-Auditing,4830,SID History was removed from an account
+Security,Microsoft-Windows-Security-Auditing,5030,The Windows Firewall service failed to start.
+Security,Microsoft-Windows-Security-Auditing,6417,The FIPS mode crypto selftests succeeded.
+Security,Microsoft-Windows-Security-Auditing,5145,A network share object was checked to see whether client can be granted desired access.
+Security,Microsoft-Windows-Security-Auditing,4611,A trusted logon process has been registered with the Local Security Authority
+Security,Microsoft-Windows-Security-Auditing,4654,An IPsec quick mode negotiation failed
+Security,Microsoft-Windows-Security-Auditing,5143,A network share object was modified
+Security,Microsoft-Windows-Security-Auditing,4823,NTLM authentication failed because access control restrictions are required
+Security,Microsoft-Windows-Security-Auditing,5378,The requested credentials delegation was disallowed by policy.
+Security,Microsoft-Windows-Security-Auditing,4647,User initiated logoff
+Security,Microsoft-Windows-Security-Auditing,4723,An attempt was made to change an account's password
+Security,Microsoft-Windows-Security-Auditing,4670,Permissions on an object were changed
+Security,Microsoft-Windows-Security-Auditing,5057,A cryptographic primitive operation failed.
+Security,Microsoft-Windows-Security-Auditing,4956,Windows Firewall changed the active profile
+Security,Microsoft-Windows-Security-Auditing,6407,n/a
+Security,Microsoft-Windows-Security-Auditing,4661,A handle to an object was requested
+Security,Microsoft-Windows-Security-Auditing,4790,An LDAP query group was created
+Security,Microsoft-Windows-Security-Auditing,4877,Certificate Services backup completed
+Security,Microsoft-Windows-Security-Auditing,4662,An operation was performed on an object
+Security,Microsoft-Windows-Security-Auditing,5137,A directory service object was created
+Security,Microsoft-Windows-Security-Auditing,4944,The following policy was active when the Windows Firewall started
+Security,Microsoft-Windows-Security-Auditing,4928,An Active Directory replica source naming context was established
+Security,Microsoft-Windows-Security-Auditing,4786,A member was removed from a basic application group
+Security,Microsoft-Windows-Security-Auditing,5148,The Windows Filtering Platform has detected a DoS attack.
+Security,Microsoft-Windows-Security-Auditing,4824,Kerberos preauthentication by using DES or RC4 failed because the account was a member of the Protected User group
+Security,Microsoft-Windows-Security-Auditing,5122,A Configuration entry changed in the OCSP Responder Service.
+Security,Microsoft-Windows-Security-Auditing,4768,This event generates every time Key Distribution Center issues a Kerberos Ticket Granting Ticket (TGT).
+Security,Microsoft-Windows-Security-Auditing,4713,Kerberos policy was changed
+Security,Microsoft-Windows-Security-Auditing,4870,Certificate Services revoked a certificate
+Security,Microsoft-Windows-Security-Auditing,5064,A cryptographic context operation was attempted.
+Security,Microsoft-Windows-Security-Auditing,4965,IPsec received a packet from a remote computer with an incorrect Security Parameter Index (SPI)
+Security,Microsoft-Windows-Security-Auditing,4700,A scheduled task was enabled
+Security,Microsoft-Windows-Security-Auditing,4820,A Kerberos Ticket-granting-ticket (TGT) was denied because the device does not meet the access control restrictions
+Security,Microsoft-Windows-Security-Auditing,5071,Key access denied by Microsoft key distribution service.
+Security,Microsoft-Windows-Security-Auditing,4892,A property of Certificate Services changed
+Security,Microsoft-Windows-Security-Auditing,5033,The Windows Firewall Driver started successfully.
+Security,Microsoft-Windows-Security-Auditing,5459,IPsec Policy Agent failed to apply locally cached copy of Active Directory storage IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,5442,The following provider was present when the Windows Filtering Platform Base Filtering Engine started.
+Security,Microsoft-Windows-Security-Auditing,5169,A directory service object was modified.
+Security,Microsoft-Windows-Security-Auditing,4779,A session was disconnected from a Window Station
+Security,Microsoft-Windows-Security-Auditing,4871,Certificate Services received a request to publish the certificate revocation list (CRL)
+Security,Microsoft-Windows-Security-Auditing,5461,IPsec Policy Agent failed to apply local registry storage IPsec policy on the computer
+Security,Microsoft-Windows-Security-Auditing,5158,The Windows Filtering Platform has permitted a bind to a local port.
+Security,Microsoft-Windows-Security-Auditing,5458,IPsec Policy Agent applied locally cached copy of Active Directory storage IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,6420,A device was disabled.
+Security,Microsoft-Windows-Security-Auditing,6406,%1 registered to Windows Firewall to control filtering for the following:  %2.
+Security,Microsoft-Windows-Security-Auditing,4671,An application attempted to access a blocked ordinal through the TBS
+Security,Microsoft-Windows-Security-Auditing,4781,The name of an account was changed
+Security,Microsoft-Windows-Security-Auditing,4720,A user account was created
+Security,Microsoft-Windows-Security-Auditing,4908,Special Groups Logon table modified
+Security,Microsoft-Windows-Security-Auditing,4981,IPsec main mode and extended mode security associations were established
+Security,Microsoft-Windows-Security-Auditing,6404,BranchCache: Hosted cache could not be authenticated using the provisioned SSL certificate.
+Security,Microsoft-Windows-Security-Auditing,4701,A scheduled task was disabled
+Security,Microsoft-Windows-Security-Auditing,4798,A user's local group membership was enumerated
+Security,Microsoft-Windows-Security-Auditing,4751,A member was added to a security-disabled global group
+Security,Microsoft-Windows-Security-Auditing,4777,The domain controller failed to validate the credentials for an account
+Security,Microsoft-Windows-Security-Auditing,5448,A Windows Filtering Platform provider has been changed.
+Security,Microsoft-Windows-Security-Auditing,5473,IPsec Policy Agent loaded directory storage IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,5152,The Windows Filtering Platform has blocked a packet.
+Security,Microsoft-Windows-Security-Auditing,4785,A member was added to a basic application group
+Security,Microsoft-Windows-Security-Auditing,4710,The IPsec Policy Agent service was disabled
+Security,Microsoft-Windows-Security-Auditing,4692,Backup of data protection master key was attempted
+Security,Microsoft-Windows-Security-Auditing,4749,A security-disabled global group was created
+Security,Microsoft-Windows-Security-Auditing,5058,Key file operation.
+Security,Microsoft-Windows-Security-Auditing,5048,A change was made to IPsec settings. A crypto set was deleted.
+Security,Microsoft-Windows-Security-Auditing,5150,The Windows Filtering Platform has blocked a packet.
+Security,Microsoft-Windows-Security-Auditing,5157,The Windows Filtering Platform has blocked a connection.
+Security,Microsoft-Windows-Security-Auditing,4719,System audit policy was changed
+Security,Microsoft-Windows-Security-Auditing,4885,The audit filter for Certificate Services changed
+Security,Microsoft-Windows-Security-Auditing,4791,A basic application group was changed
+Security,Microsoft-Windows-Security-Auditing,5452,An IPsec quick mode security association ended.
+Security,Microsoft-Windows-Security-Auditing,4907,Auditing settings on object were changed
+Security,Microsoft-Windows-Security-Auditing,5035,The Windows Firewall Driver failed to start.
+Security,Microsoft-Windows-Security-Auditing,4900,Certificate Services template security was updated
+Security,Microsoft-Windows-Security-Auditing,4769,A Kerberos service ticket was requested
+Security,Microsoft-Windows-Security-Auditing,4964,Special groups have been assigned to a new logon
+Security,Microsoft-Windows-Security-Auditing,4748,A security-disabled local group was deleted
+Security,Microsoft-Windows-Security-Auditing,4880,Certificate Services started
+Security,Microsoft-Windows-Security-Auditing,4646,n/a
+Security,Microsoft-Windows-Security-Auditing,4909,The local policy settings for the TBS were changed
+Security,Microsoft-Windows-Security-Auditing,4949,Windows Firewall settings were restored to the default values.
+Security,Microsoft-Windows-Security-Auditing,5376,Credential Manager credentials were backed up.
+Security,Microsoft-Windows-Security-Auditing,4744,A security-disabled local group was created
+Security,Microsoft-Windows-Security-Auditing,5444,The following sub-layer was present when the Windows Filtering Platform Base Filtering Engine started.
+Security,Microsoft-Windows-Security-Auditing,4702,A scheduled task was updated
+Security,Microsoft-Windows-Security-Auditing,4912,Per User Audit Policy was changed
+Security,Microsoft-Windows-Security-Auditing,4963,IPsec dropped an inbound clear text packet that should have been secured
+Security,Microsoft-Windows-Security-Auditing,6410,Code integrity determined that a file does not meet the security requirements to load into a process.
+Security,Microsoft-Windows-Security-Auditing,5062,A kernel-mode cryptographic self test was performed.
+Security,Microsoft-Windows-Security-Auditing,4794,An attempt was made to set the Directory Services Restore Mode administrator password
+Security,Microsoft-Windows-Security-Auditing,4694,Protection of auditable protected data was attempted
+Security,Microsoft-Windows-Security-Auditing,5890,An object was added to the COM+ Catalog.
+Security,Microsoft-Windows-Security-Auditing,4675,SIDs were filtered
+Security,Microsoft-Windows-Security-Auditing,4945,A rule was listed when the Windows Firewall started
+Security,Microsoft-Windows-Security-Auditing,5139,A directory service object was moved.
+Security,Microsoft-Windows-Security-Auditing,4765,SID History was added to an account
+Security,Microsoft-Windows-Security-Auditing,4763,A security-disabled universal group was deleted
+Security,Microsoft-Windows-Security-Auditing,4733,A member was removed from a security-enabled local group
+Security,Microsoft-Windows-Security-Auditing,5485,IPsec Policy Agent failed to process some IPsec filters on a plug-and-play event for network interfaces.
+Security,Microsoft-Windows-Security-Auditing,4667,An application client context was deleted
+Security,Microsoft-Windows-Security-Auditing,4746,A member was added to a security-disabled local group
+Security,Microsoft-Windows-Security-Auditing,4976,"During main mode negotiation, IPsec received an invalid negotiation packet"
+Security,Microsoft-Windows-Security-Auditing,6405,BranchCache: %2 instance(s) of event id %1 occurred.
+Security,Microsoft-Windows-Security-Auditing,4698,A scheduled task was created
+Security,Microsoft-Windows-Security-Auditing,5154,The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections.
+Security,Microsoft-Windows-Security-Auditing,4760,A security-disabled universal group was changed
+Security,Microsoft-Windows-Security-Auditing,4742,A computer account was changed
+Security,Microsoft-Windows-Security-Auditing,5138,A directory service object was undeleted.
+Security,Microsoft-Windows-Security-Auditing,4865,A trusted forest information entry was added
+Security,Microsoft-Windows-Security-Auditing,4688,A new process has been created
+Security,Microsoft-Windows-Security-Auditing,6424,"The installation of this device was allowed, after having previously been forbidden by policy."
+Security,Microsoft-Windows-Security-Auditing,4693,Recovery of data protection master key was attempted
+Security,Microsoft-Windows-Security-Auditing,6144,Security policy in the group policy objects has been applied successfully.
+Security,Microsoft-Windows-Security-Auditing,4780,The ACL was set on accounts which are members of administrators groups
+Security,Microsoft-Windows-Security-Auditing,4726,A user account was deleted
+Security,Microsoft-Windows-Security-Auditing,5141,A directory service object was deleted.
+Security,Microsoft-Windows-Security-Auditing,5463,IPsec Policy Agent polled for changes to the active IPsec policy and detected no changes.
+Security,Microsoft-Windows-Security-Auditing,4876,Certificate Services backup started
+Security,Microsoft-Windows-Security-Auditing,5044,A change was made to IPsec settings. A connection security rule was modified.
+Security,Microsoft-Windows-Security-Auditing,5028,Windows Firewall was unable to parse the new security policy.
+Security,Microsoft-Windows-Security-Auditing,4715,The audit policy (SACL) on an object was changed
+Security,Microsoft-Windows-Security-Auditing,4883,Certificate Services retrieved an archived key
+Security,Microsoft-Windows-Security-Auditing,5025,The Windows Firewall service was stopped.
+Security,Microsoft-Windows-Security-Auditing,4930,An Active Directory replica source naming context was modified
+Security,Microsoft-Windows-Security-Auditing,4899,A Certificate Services template was updated
+Security,Microsoft-Windows-Security-Auditing,6274,Network Policy Server discarded the request for a user.
+Security,Microsoft-Windows-Security-Auditing,5060,Verification operation failed.
+Security,Microsoft-Windows-Security-Auditing,4665,An attempt was made to create an application client context
+Security,Microsoft-Windows-Security-Auditing,5045,A change was made to IPsec settings. A connection security rule was deleted.
+Security,Microsoft-Windows-Security-Auditing,5460,IPsec Policy Agent applied local registry storage IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,4764,A group’s type was changed
+Security,Microsoft-Windows-Security-Auditing,4787,A non-member was added to a basic application group
+Security,Microsoft-Windows-Security-Auditing,4622,A security package has been loaded by the Local Security Authority
+Security,Microsoft-Windows-Security-Auditing,4759,A security-disabled universal group was created
+Security,Microsoft-Windows-Security-Auditing,4716,Trusted domain information was modified
+Security,Microsoft-Windows-Security-Auditing,6416,A new external device was recognized by the system.
+Security,Microsoft-Windows-Security-Auditing,5039,A registry key was virtualized.
+Security,Microsoft-Windows-Security-Auditing,6278,Network Policy Server granted full access to a user because the host met the defined health policy.
+Security,Microsoft-Windows-Security-Auditing,4982,IPsec main mode and extended mode security associations were established
+Security,Microsoft-Windows-Security-Auditing,4756,A member was added to a security-enabled universal group
+Security,Microsoft-Windows-Security-Auditing,4625,An account failed to log on
+Security,Microsoft-Windows-Security-Auditing,5155,The Windows Filtering Platform has blocked an application or service from listening on a port for incoming connections.
+Security,Microsoft-Windows-Eventlog,1100,The event logging service has shut down
+Security,Microsoft-Windows-Security-Auditing,6422,A device was enabled.
+Security,Microsoft-Windows-Security-Auditing,4784,A basic application group was changed
+Security,Microsoft-Windows-Security-Auditing,4737,A security-enabled global group was changed
+Security,Microsoft-Windows-Security-Auditing,6277,Network Policy Server granted access to a user but put it on probation because the host did not meet the defined health policy.
+Security,Microsoft-Windows-Eventlog,1102,The audit log was cleared
+Security,Microsoft-Windows-Security-Auditing,4666,An application attempted an operation
+Security,Microsoft-Windows-Security-Auditing,4653,An IPsec main mode negotiation failed
+Security,Microsoft-Windows-Security-Auditing,6275,Network Policy Server discarded the accounting request for a user.
+Security,Microsoft-Windows-Security-Auditing,5168,Spn check for SMB/SMB2 fails.
+Security,Microsoft-Windows-Security-Auditing,6402,BranchCache: The message to the hosted cache offering it data is incorrectly formatted.
+Security,Microsoft-Windows-Security-Auditing,4752,A member was removed from a security-disabled global group
+Security,Microsoft-Windows-Security-Auditing,4739,Domain Policy was changed
+Security,Microsoft-Windows-Security-Auditing,6418,The FIPS mode crypto selftests failed.
+Security,Microsoft-Windows-Security-Auditing,4657,A registry value was modified
+Security,Microsoft-Windows-Security-Auditing,4729,A member was removed from a security-enabled global group
+Security,Microsoft-Windows-Security-Auditing,4797,An attempt was made to query the existence of a blank password for an account
+Security,Microsoft-Windows-Security-Auditing,5061,Cryptographic operation.
+Security,Microsoft-Windows-Security-Auditing,6403,BranchCache: The hosted cache sent an incorrectly formatted response to the client's message to offer it data.
+Security,Microsoft-Windows-Security-Auditing,5633,A request was made to authenticate to a wired network.
+Security,Microsoft-Windows-Security-Auditing,4933,Synchronization of a replica of an Active Directory naming context has ended
+Security,Microsoft-Windows-Security-Auditing,4887,Certificate Services approved a certificate request and issued a certificate
+Security,Microsoft-Windows-Security-Auditing,4659,A handle to an object was requested with intent to delete
+Security,Microsoft-Windows-Security-Auditing,5070,A cryptographic function property modification was attempted.
+Security,Microsoft-Windows-Security-Auditing,4896,One or more rows have been deleted from the certificate database
+Security,Microsoft-Windows-Security-Auditing,4817,Auditing settings on object were changed
+Security,Microsoft-Windows-Security-Auditing,4888,Certificate Services denied a certificate request
+Security,Microsoft-Windows-Security-Auditing,4902,The Per-user audit policy table was created
+Security,Microsoft-Windows-Security-Auditing,5440,The following callout was present when the Windows Filtering Platform Base Filtering Engine started.
+Security,Microsoft-Windows-Security-Auditing,4954,"Group Policy settings for Windows Firewall were changed, and the new settings were applied."
+Security,Microsoft-Windows-Security-Auditing,5069,A cryptographic function property operation was attempted.
+Security,Microsoft-Windows-Security-Auditing,4884,Certificate Services imported a certificate into its database
+Security,Microsoft-Windows-Security-Auditing,5126,Signing Certificate was automatically updated by the OCSP Responder Service.
+Security,Microsoft-Windows-Security-Auditing,4948,A change was made to the Windows Firewall exception list. A rule was deleted
+Security,Microsoft-Windows-Security-Auditing,4767,A user account was unlocked
+Security,Microsoft-Windows-Security-Auditing,4979,IPsec main mode and extended mode security associations were established
+Security,Microsoft-Windows-Security-Auditing,4952,Windows Firewall ignored parts of a rule because its minor version number is not recognized
+Security,Microsoft-Windows-Security-Auditing,4980,IPsec main mode and extended mode security associations were established
+Security,Microsoft-Windows-Security-Auditing,5065,A cryptographic context modification was attempted.
+Security,Microsoft-Windows-Security-Auditing,4931,An Active Directory replica destination naming context was modified
+Security,Microsoft-Windows-Security-Auditing,4977,"During quick mode negotiation, IPsec received an invalid negotiation packet"
+Security,Microsoft-Windows-Security-Auditing,4668,An application was initialized
+Security,Microsoft-Windows-Security-Auditing,4789,A basic application group was deleted
+Security,Microsoft-Windows-Security-Auditing,4934,Attributes of an Active Directory object were replicated
+Security,Microsoft-Windows-Security-Auditing,4775,An account could not be mapped for logon
+Security,Microsoft-Windows-Security-Auditing,4741,A computer account was created
+Security,Microsoft-Windows-Security-Auditing,5149,The DoS attack has subsided and normal processing is being resumed.
+Security,Microsoft-Windows-Security-Auditing,4913,Central Access Policy on the object was changed
+Security,Microsoft-Windows-Security-Auditing,4734,A security-enabled local group was deleted
+Security,Microsoft-Windows-Security-Auditing,5468,IPsec Policy Agent polled for changes to the Active Directory IPsec policy.
+Security,Microsoft-Windows-Security-Auditing,4802,The screen saver was invoked
+Security,Microsoft-Windows-Security-Auditing,5140,A network share object was accessed
+Security,Microsoft-Windows-Security-Auditing,4905,An attempt was made to unregister a security event source
+Security,Microsoft-Windows-Security-Auditing,5466,IPsec Policy Agent polled for changes to the Active Directory IPsec policy.
+Security,Microsoft-Windows-Security-Auditing,4868,The certificate manager denied a pending certificate request
+Security,Microsoft-Windows-Security-Auditing,5471,IPsec Policy Agent loaded local storage IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,5142,A network share object was added
+Security,Microsoft-Windows-Security-Auditing,5477,IPsec Policy Agent failed to add quick mode filter.
+Security,Microsoft-Windows-Security-Auditing,5712,A Remote Procedure Call (RPC) was attempted.
+Security,Microsoft-Windows-Security-Auditing,4821,"A Kerberos service ticket was denied because the user, device, or both does not meet the access control restrictions"
+Security,Microsoft-Windows-Security-Auditing,5474,IPsec Policy Agent failed to load directory storage IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,4695,Unprotection of auditable protected data was attempted
+Security,Microsoft-Windows-Security-Auditing,4663,An attempt was made to access an object
+Security,Microsoft-Windows-Security-Auditing,4656,A handle to an object was requested
+Security,Microsoft-Windows-Security-Auditing,5063,A cryptographic provider operation was attempted.
+Security,Microsoft-Windows-Security-Auditing,4753,A security-disabled global group was deleted
+Security,Microsoft-Windows-Security-Auditing,4878,Certificate Services restore started
+Security,Microsoft-Windows-Security-Auditing,4978,"During extended mode negotiation, IPsec received an invalid negotiation packet"
+Security,Microsoft-Windows-Security-Auditing,4761,A member was added to a security-disabled universal group
+Security,Microsoft-Windows-Security-Auditing,4800,The workstation was locked
+Security,Microsoft-Windows-Security-Auditing,5041,A change was made to IPsec settings. An authentication set was modified.
+Security,Microsoft-Windows-Security-Auditing,4722,A user account was enabled
+Security,Microsoft-Windows-Security-Auditing,5040,A change was made to IPsec settings. An authentication set was added.
+Security,Microsoft-Windows-Security-Auditing,5462,IPsec Policy Agent failed to apply some rules of the active IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,4730,A security-enabled global group was deleted
+Security,Microsoft-Windows-Security-Auditing,4874,One or more certificate request attributes changed
+Security,Microsoft-Windows-Security-Auditing,5125,A request was submitted to OCSP Responder Service.
+Security,Microsoft-Windows-Security-Auditing,4792,An LDAP query group was deleted
+Security,Microsoft-Windows-Security-Auditing,5450,A Windows Filtering Platform sub-layer has been changed.
+Security,Microsoft-Windows-Security-Auditing,5464,"IPsec Policy Agent polled for changes to the active IPsec policy, detected changes, and applied them."
+Security,Microsoft-Windows-Security-Auditing,5147,A more restrictive Windows Filtering Platform filter has blocked a packet.
+Security,Microsoft-Windows-Security-Auditing,4932,Synchronization of a replica of an Active Directory naming context has begun
+Security,Microsoft-Windows-Security-Auditing,5042,A change was made to IPsec settings. An authentication set was deleted.
+Security,Microsoft-Windows-Security-Auditing,4655,An IPsec main mode security association ended
+Security,Microsoft-Windows-Security-Auditing,5480,IPsec Policy Agent failed to get the complete list of network interfaces on the computer.
+Security,Microsoft-Windows-Security-Auditing,4618,A monitored security event pattern has occurred.
+Security,Microsoft-Windows-Security-Auditing,4950,A Windows Firewall setting was changed
+Security,Microsoft-Windows-Security-Auditing,4983,An IPsec extended mode negotiation failed
+Security,Microsoft-Windows-Security-Auditing,4651,An IPsec main mode security association was established
+Security,Microsoft-Windows-Security-Auditing,4890,The certificate manager settings for Certificate Services changed
+Security,Microsoft-Windows-Security-Auditing,4757,A member was removed from a security-enabled universal group
+Security,Microsoft-Windows-Security-Auditing,4614,A notification package has been loaded by the Security Account Manager
+Security,Microsoft-Windows-Security-Auditing,4801,The workstation was unlocked
+Security,Microsoft-Windows-Security-Auditing,5484,The IPsec Policy Agent service experienced a critical failure and has shut down.
+Security,Microsoft-Windows-Security-Auditing,5031,Windows Firewall blocked an application from accepting incoming connections on the network.
+Security,Microsoft-Windows-Security-Auditing,5027,The Windows Firewall service was unable to retrieve the security policy from the local storage.
+Security,Microsoft-Windows-Security-Auditing,4624,An account was successfully logged on
+Security,Microsoft-Windows-Security-Auditing,4946,A change was made to the Windows Firewall exception list. A rule was added
+Security,Microsoft-Windows-Security-Auditing,4958,Windows Firewall did not apply the following rule because the rule referred to items not configured on this computer
+Security,Microsoft-Windows-Security-Auditing,5067,A cryptographic function modification was attempted.
+Security,Microsoft-Windows-Security-Auditing,4689,A process has exited
+Security,Microsoft-Windows-Security-Auditing,5449,A Windows Filtering Platform provider context has been changed.
+Security,Microsoft-Windows-Security-Auditing,4627,Group membership information
+Security,Microsoft-Windows-Security-Auditing,4881,Certificate Services stopped
+Security,Microsoft-Windows-Security-Auditing,4743,A computer account was deleted
+Security,Microsoft-Windows-Security-Auditing,4608,Windows is starting up
+Security,Microsoft-Windows-Security-Auditing,4706,A new trust was created to a domain
+Security,Microsoft-Windows-Security-Auditing,4985,The state of a transaction has changed
+Security,Microsoft-Windows-Security-Auditing,4891,A configuration entry changed in Certificate Services
+Security,Microsoft-Windows-Security-Auditing,5049,An IPsec security association was deleted.
+Security,Microsoft-Windows-Security-Auditing,4738,A user account was changed
+Security,Microsoft-Windows-Security-Auditing,4697,A service was installed in the system
+Security,Microsoft-Windows-Security-Auditing,4754,A security-enabled universal group was created
+Security,Microsoft-Windows-Security-Auditing,4799,A security-enabled local group membership was enumerated
+Security,Microsoft-Windows-Security-Auditing,4660,An object was deleted
+Security,Microsoft-Windows-Security-Auditing,5032,Windows Firewall was unable to notify the user that it blocked an application from accepting incoming connections on the network.
+Security,Microsoft-Windows-Security-Auditing,4732,A member was added to a security-enabled local group
+Security,Microsoft-Windows-Security-Auditing,5453,An IPsec negotiation with a remote computer failed.
+Security,Microsoft-Windows-Security-Auditing,6419,A request was made to disable a device.
+Security,Microsoft-Windows-Security-Auditing,5888,An object in the COM+ Catalog was modified.
+Security,Microsoft-Windows-Security-Auditing,4709,The IPsec Policy Agent service was started
+Security,Microsoft-Windows-Security-Auditing,4935,Replication failure begins
+Security,Microsoft-Windows-Security-Auditing,4910,The group policy settings for the TBS were changed
+Security,Microsoft-Windows-Security-Auditing,5068,A cryptographic function provider operation was attempted.
+Security,Microsoft-Windows-Security-Auditing,5066,A cryptographic function operation was attempted.
+Security,Microsoft-Windows-Security-Auditing,4696,A primary token was assigned to process
+Security,Microsoft-Windows-Security-Auditing,4882,The security permissions for Certificate Services changed
+Security,Microsoft-Windows-Security-Auditing,5151,A more restrictive Windows Filtering Platform filter has blocked a packet.
+Security,Microsoft-Windows-Security-Auditing,4793,The Password Policy Checking API was called
+Security,Microsoft-Windows-Security-Auditing,6409,BranchCache: A service connection point object could not be parsed.
+Security,Microsoft-Windows-Security-Auditing,6408,Registered product %1 failed and Windows Firewall is now controlling the filtering for %2.
+Security,Microsoft-Windows-Security-Auditing,6276,Network Policy Server quarantined a user.
+Security,Microsoft-Windows-Security-Auditing,4609,Windows is shutting down
+Security,Microsoft-Windows-Security-Auditing,4936,Replication failure ends
+Security,Microsoft-Windows-Security-Auditing,4705,A user right was removed
+Security,Microsoft-Windows-Security-Auditing,5146,The Windows Filtering Platform has blocked a packet.
+Security,Microsoft-Windows-Security-Auditing,4866,A trusted forest information entry was removed
+Security,Microsoft-Windows-Security-Auditing,5121,OCSP Responder Service Stopped.
+Security,Microsoft-Windows-Security-Auditing,4773,A Kerberos service ticket request failed
+Security,Microsoft-Windows-Security-Auditing,4929,An Active Directory replica source naming context was removed
+Security,Microsoft-Windows-Security-Auditing,4658,The handle to an object was closed
+Security,Microsoft-Windows-Security-Auditing,6279,Network Policy Server locked the user account due to repeated failed authentication attempts.
+Security,Microsoft-Windows-Security-Auditing,4711,PAStore Engine
+Security,Microsoft-Windows-Security-Auditing,4818,Proposed Central Access Policy does not grant the same access permissions as the current Central Access Policy
+Security,Microsoft-Windows-Security-Auditing,4758,A security-enabled universal group was deleted
+Security,Microsoft-Windows-Security-Auditing,4766,An attempt to add SID History to an account failed
+Security,Microsoft-Windows-Security-Auditing,4957,Windows Firewall did not apply the following rule
+Security,Microsoft-Windows-Security-Auditing,4626,User / Device claims information
+Security,Microsoft-Windows-Security-Auditing,5472,IPsec Policy Agent failed to load local storage IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,4951,Windows Firewall ignored a rule because its major version number is not recognized
+Security,Microsoft-Windows-Security-Auditing,5037,The Windows Firewall Driver detected a critical runtime error.
+Security,Microsoft-Windows-Security-Auditing,4728,A member was added to a security-enabled global group
+Security,Microsoft-Windows-Security-Auditing,5024,The Windows Firewall service started successfully.
+Security,Microsoft-Windows-Security-Auditing,4953,Windows Firewall ignored a rule because it could not be parsed
+Security,Microsoft-Windows-Security-Auditing,5467,IPsec Policy Agent polled for changes to the Active Directory IPsec policy.
+Security,Microsoft-Windows-Security-Auditing,4672,Special privileges assigned to new logon
+Security,Microsoft-Windows-Security-Auditing,4771,Kerberos pre-authentication failed
+Security,Microsoft-Windows-Security-Auditing,5443,The following provider context was present when the Windows Filtering Platform Base Filtering Engine started.
+Security,Microsoft-Windows-Security-Auditing,4825,"A user was denied the access to Remote Desktop. By default, users are allowed to connect only if they are members of the Remote Desktop Users group or Administrators group"
+Security,Microsoft-Windows-Security-Auditing,5441,The following filter was present when the Windows Filtering Platform Base Filtering Engine started.
+Security,Microsoft-Windows-Security-Auditing,4735,A security-enabled local group was changed
+Security,Microsoft-Windows-Security-Auditing,4718,System security access was removed from an account
+Security,Microsoft-Windows-Security-Auditing,4717,System security access was granted to an account
+Security,Microsoft-Windows-Security-Auditing,6145,One or more errors occurred while processing security policy in the group policy objects.
+Security,Microsoft-Windows-Security-Auditing,4650,An IPsec main mode security association was established
+Security,Microsoft-Windows-Security-Auditing,5029,The Windows Firewall service failed to initialize the driver.
+Security,Microsoft-Windows-Security-Auditing,4819,Central Access Policies on the machine have been changed
+Security,Microsoft-Windows-Security-Auditing,4755,A security-enabled universal group was changed
+Security,Microsoft-Windows-Security-Auditing,4906,The CrashOnAuditFail value has changed
+Security,Microsoft-Windows-Security-Auditing,4731,A security-enabled local group was created
+Security,Microsoft-Windows-Security-Auditing,6272,Network Policy Server granted access to a user.
+Security,Microsoft-Windows-Security-Auditing,6281,Code Integrity determined that the page hashes of an image file are not valid.
+Security,Microsoft-Windows-Security-Auditing,4762,A member was removed from a security-disabled universal group
+Security,Microsoft-Windows-Security-Auditing,4960,IPsec dropped an inbound packet that failed an integrity check
+Security,Microsoft-Windows-Security-Auditing,6280,Network Policy Server unlocked the user account.
+Security,Microsoft-Windows-Security-Auditing,4664,An attempt was made to create a hard link
+Security,Microsoft-Windows-Security-Auditing,5451,An IPsec quick mode security association was established.
+Security,Microsoft-Windows-Security-Auditing,5046,A change was made to IPsec settings. A crypto set was added.
+Security,Microsoft-Windows-Security-Auditing,5446,A Windows Filtering Platform callout has been changed.
+Security,Microsoft-Windows-Security-Auditing,4724,An attempt was made to reset an account's password
+Security,Microsoft-Windows-Security-Auditing,4690,An attempt was made to duplicate a handle to an object
+Security,Microsoft-Windows-Security-Auditing,4937,A lingering object was removed from a replica
+Security,Microsoft-Windows-Security-Auditing,5043,A change was made to IPsec settings. A connection security rule was added.
+Security,Microsoft-Windows-Security-Auditing,5889,An object was deleted from the COM+ Catalog.
+Security,Microsoft-Windows-Security-Auditing,4727,A security-enabled global group was created
+Security,Microsoft-Windows-Security-Auditing,5483,The IPsec Policy Agent service failed to initialize its RPC server.
+Security,Microsoft-Windows-Security-Auditing,4648,A logon was attempted using explicit credentials
+Security,Microsoft-Windows-Eventlog,1104,The security event log is now full
+Security,Microsoft-Windows-Security-Auditing,4783,A basic application group was created
+Security,Microsoft-Windows-Security-Auditing,4652,An IPsec main mode negotiation failed
+Security,Microsoft-Windows-Security-Auditing,5056,A cryptographic self test was performed.
+Security,Microsoft-Windows-Security-Auditing,5456,IPsec Policy Agent applied Active Directory storage IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,4911,Resource attributes of the object were changed
+Security,Microsoft-Windows-Security-Auditing,4897,Role separation enabled
+Security,Microsoft-Windows-Security-Auditing,4961,IPsec dropped an inbound packet that failed a replay check
+Security,Microsoft-Windows-Security-Auditing,4893,Certificate Services archived a key
+Security,Microsoft-Windows-Security-Auditing,5465,IPsec Policy Agent received a control for forced reloading of IPsec policy and processed the control successfully.
+Security,Microsoft-Windows-Security-Auditing,4649,A replay attack was detected
+Security,Microsoft-Windows-Security-Auditing,5377,Credential Manager credentials were restored from a backup.
+Security,Microsoft-Windows-Security-Auditing,4889,Certificate Services set the status of a certificate request to pending
+Security,Microsoft-Windows-Security-Auditing,4898,Certificate Services loaded a template
+Security,Microsoft-Windows-Security-Auditing,4778,A session was reconnected to a Window Station
+Security,Microsoft-Windows-Security-Auditing,4864,A namespace collision was detected
+Security,Microsoft-Windows-Security-Auditing,4612,"Internal resources allocated for the queuing of audit messages have been exhausted, leading to the loss of some audits"
+Security,Microsoft-Windows-Security-Auditing,4691,Indirect access to an object was requested
+Security,Microsoft-Windows-Security-Auditing,6423,The installation of this device is forbidden by system policy.
+Security,Microsoft-Windows-Security-Auditing,6421,A request was made to enable a device.
+Security,Microsoft-Windows-Security-Auditing,4776,The computer attempted to validate the credentials for an account
+Security,Microsoft-Windows-Security-Auditing,4947,A change was made to the Windows Firewall exception list. A rule was modified
+Security,Microsoft-Windows-Security-Auditing,4788,A non-member was removed from a basic application group
+Security,Microsoft-Windows-Security-Auditing,5051,A file was virtualized.
+Security,Microsoft-Windows-Security-Auditing,4895,Certificate Services published the CA certificate to Active Directory Domain Services
+Security,Microsoft-Windows-Security-Auditing,4770,A Kerberos service ticket was renewed
+Security,Microsoft-Windows-Security-Auditing,4750,A security-disabled global group was changed
+Security,Microsoft-Windows-Security-Auditing,6273,Network Policy Server denied access to a user.
+Security,Microsoft-Windows-Security-Auditing,5120,OCSP Responder Service Started.
+Security,Microsoft-Windows-Security-Auditing,5038,Code integrity determined that the image hash of a file is not valid.
+Security,Microsoft-Windows-Security-Auditing,4867,A trusted forest information entry was modified
+Security,Microsoft-Windows-Security-Auditing,4740,A user account was locked out
+Security,Microsoft-Windows-Security-Auditing,4984,An IPsec extended mode negotiation failed
+Security,Microsoft-Windows-Security-Auditing,5153,A more restrictive Windows Filtering Platform filter has blocked a packet.
+Security,Microsoft-Windows-Security-Auditing,4699,A scheduled task was deleted
+Security,Microsoft-Windows-Security-Auditing,4725,A user account was disabled
+Security,Microsoft-Windows-Security-Auditing,4816,RPC detected an integrity violation while decrypting an incoming message.
+Security,Microsoft-Windows-Security-Auditing,4772,A Kerberos authentication ticket request failed
+Security,Microsoft-Windows-Security-Auditing,4673,A privileged service was called
+Security,Microsoft-Windows-Security-Auditing,4904,An attempt was made to register a security event source
+Security,Microsoft-Windows-Security-Auditing,5047,A change was made to IPsec settings. A crypto set was modified.
+Security,Microsoft-Windows-Security-Auditing,4894,Certificate Services imported and archived a key
+Security,Microsoft-Windows-Security-Auditing,4621,Administrator recovered system from CrashOnAuditFail.
+Security,Microsoft-Windows-Security-Auditing,4610,An authentication package has been loaded by the Local Security Authority
+Security,Microsoft-Windows-Security-Auditing,5447,A Windows Filtering Platform filter has been changed.
+Security,Microsoft-Windows-Security-Auditing,5632,A request was made to authenticate to a wireless network.
+Security,Microsoft-Windows-Security-Auditing,4803,The screen saver was dismissed
+Security,Microsoft-Windows-Security-Auditing,4615,Invalid use of LPC port
+Security,Microsoft-Windows-Security-Auditing,6401,BranchCache: Received invalid data from a peer. Data discarded.
+Security,Microsoft-Windows-Security-Auditing,5457,IPsec Policy Agent failed to apply Active Directory storage IPsec policy on the computer.
+Security,Microsoft-Windows-Security-Auditing,4782,The password hash an account was accessed
+Security,Microsoft-Windows-Security-Auditing,4747,A member was removed from a security-disabled local group
+Security,Microsoft-Windows-Security-Auditing,4674,An operation was attempted on a privileged object
+Security,Microsoft-Windows-Security-Auditing,4869,Certificate Services received a resubmitted certificate request
+Security,Microsoft-Windows-Security-Auditing,6400,BranchCache: Received an incorrectly formatted response while discovering availability of content.
+Security,Microsoft-Windows-Security-Auditing,5124,A security setting was updated on OCSP Responder Service.
+Security,Microsoft-Windows-Security-Auditing,5123,A configuration entry changed in the OCSP Responder Service.
+Security,Microsoft-Windows-Security-Auditing,4872,Certificate Services published the certificate revocation list (CRL)
+Security,Microsoft-Windows-Security-Auditing,4704,A user right was assigned
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,18,PipeEvent (Pipe Connected)
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1000,An antimalware scan started
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,80,Symantec Endpoint Protection has failed to load the latest virus definitions
+Microsoft-Windows-TaskScheduler/Operational,Microsoft-Windows-TaskScheduler,201,Scheduled Task completed
+Application,Screenconnect,201,Transferred files with action
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,25,ProcessTampering (Process image change)
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9704,RunOnce commands finished
+Microsoft-Windows-TerminalServices-Gateway/Operational,Microsoft-Windows-TerminalServices-Gateway,303,Remote Desktop Services: User disconnected from resource
+Cisco AnyConnect Secure Mobility Client,acvpnagent,2072,Cisco AnyConnect VPN Active Interface Addresses
+Application,System Restore,8196,System Restore has been enabled
+Varonis,VrnsCifsQueue,5138,Mount point validation
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,15,FileCreateStreamHash
+Microsoft-Windows-SMBServer/Operational,Microsoft-Windows-SMBServer,1017,Handle scavenged
+Splashtop-Splashtop Streamer-Remote Session/Operational,Splashtop-Splashtop Streamer-Remote Session,1110,Splashtop file transfer
+CiscoSecureEndpoint/Events,CiscoSecureEndpoint,1310,Cisco Secure Endpoint Detection
+Microsoft-Windows-WinRM/Operational,Microsoft-Windows-WinRM,169,WinRM Authentication
+Application,MsiInstaller,11724,Program uninstalled successfully
+Microsoft-Windows-AppLocker/MSI and Script,Microsoft-Windows-AppLocker,8005,A script or MSI was allowed to run
+System,Microsoft-Windows-Winlogon,7001,User logon
+Cisco AnyConnect Secure Mobility Client,acvpnui,3021,Cisco AnyConnect VPN message sent to user
+Microsoft-Windows-TerminalServices-RDPClient/Operational,Microsoft-Windows-TerminalServices-ClientActiveXCore,1025,RDP ClientActiveX has connected to the server
+Kaspersky Endpoint Security,avp,302,Kaspersky AV Detection
+Application,FSecure-FSecure Application-F-Secure Anti-Virus,103,F-Secure Anti-Virus - Manual scanning was finished - workstation was found infected
+Splashtop-Splashtop Streamer-Remote Session/Operational,Splashtop-Splashtop Streamer-Remote Session,1111,Splashtop file transfer
+Application,CbDefense,33,Carbon Black Defense
+Microsoft-Windows-Bits-Client/Operational,Microsoft-Windows-Bits-Client,3,BITS service created a new job
+Microsoft-Windows-VHDMP-Operational,Microsoft-Windows-VHDMP,50,Performing Create VHD
+Microsoft-Windows-TerminalServices-LocalSessionManager/Operational,Microsoft-Windows-TerminalServices-LocalSessionManager,40,"Session (PayloadData1) has been disconnected, reason code (PayloadData2)"
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,1,Process creation
+Microsoft-Windows-Hyper-V-Worker-Admin,Microsoft-Windows-Hyper-V-Worker,18504,Hyper-V VM was shut down
+Application,ESENT,326,NTDS the database engine attached a database
+Microsoft-Windows-VHDMP-Operational,Microsoft-Windows-VHDMP,1,A VHD has been created
+System,Microsoft-Windows-Time-Service,37,Synchronizing system time from time service
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,23,FileDelete (A file delete was detected)
+Application,MSSQLSERVER,18456,MSSQLSERVER Login failed
+System,User32,1074,A user initiated a system restart
+Application,Symantec WSS Traffic Redirection,4003,Symantec Web and Cloud Access Protection Disabled
+Microsoft-Windows-TerminalServices-Gateway/Operational,Microsoft-Windows-TerminalServices-Gateway,312,Remote Desktop Services: User has initiated an outbound connection
+Microsoft-Windows-WER-Diag/Operational,Microsoft-Windows-WER-Diag,4,Application Crash on Launch
+System,LsaSrv,40960,Security authentication error
+Application,Screenconnect,100,Session connected
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,34054,SONAR has been enabled
+Microsoft-Windows-VHDMP-Operational,Microsoft-Windows-VHDMP,51,Successfully performed Create VHD
+Kaspersky Endpoint Security,avp,362,Kaspersky AV Detection
+SentinelOne/Operational,SentinelOne,81,Sentinel Scan Ended
+Microsoft-Windows-TerminalServices-Gateway/Operational,Microsoft-Windows-TerminalServices-Gateway,300,Remote Desktop Services: User meets resource authorization policy requirements needed to connect to resource
+Microsoft-Windows-WMI-Activity/Operational,Microsoft-Windows-WMI-Activity,5860,WMI Registration of Temporary Event Consumer
+Application,Sophos Anti-Virus,32,Sophos Alert Identified
+System,LsaSrv,45057,Account disabled
+Application,HitmanPro.Alert,911,HitmanPro ALERT Identified
+Splashtop-Splashtop Streamer-Remote Session/Operational,Splashtop-Splashtop Streamer-Remote Session,1001,Splashtop session disconnected
+Application,Microsoft-Windows-Audit-CVE,1,An attempt to exploit a known vulnerability detected
+Security,Microsoft-Windows-Security-Auditing,5159,The Windows Filtering Platform has permitted an application or service to listen on a port for incoming connections
+Application,ESENT,216,NTDS database location change was detected
+Microsoft-Windows-PowerShell/Operational,Microsoft-Windows-PowerShell,4103,Pipeline executed
+Microsoft-Windows-User Profile Service/Operational,Microsoft-Windows-User Profiles Service,4,An account was logged off
+Microsoft-Windows-TerminalServices-LocalSessionManager/Operational,Microsoft-Windows-TerminalServices-LocalSessionManager,39,Session (PayloadData1) has been disconnected by session (PayloadData2)
+System,Microsoft-Windows-Time-Service,35,Synchronizing system time from time service
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,2000,Update - The antimalware definitions updated successfully
+Microsoft-Windows-GroupPolicy/Operational,Microsoft-Windows-GroupPolicy,4004,Starting manual processing of policy for COMPUTER
+Microsoft-Windows-DeviceSetupManager/Admin,Microsoft-Windows-DeviceSetupManager,100,Microsoft-Windows-DeviceSetupManager service starting
+Application,Screenconnect,101,Session disconnected
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,10,ProcessAccess
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,3,Scan started
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,69,Enhanced scan failed
+Varonis,VrnsCifsQueueReport,5118,Various statistics
+Microsoft-Windows-TaskScheduler/Operational,Microsoft-Windows-TaskScheduler,102,Scheduled Task completed
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1011,The antimalware platform deleted an item from quarantine
+Microsoft-Windows-Hyper-V-VMMS-Admin,Microsoft-Windows-Hyper-V-VMMS,13002,A new Hyper-V VM was created
+Microsoft-Windows-NetworkProfile/Operational,Microsoft-Windows-NetworkProfile,10001,Disconnect from the Internet
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,29,FileExecutableDetected (An executable file was created)
+Varonis,VrnsCifsQueue,5172,Proxy disconnection
+Application,CbDefense,17,Carbon Black Defense
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1117,Detection - The antimalware platform performed an action to protect your system from malware or other potentially unwanted software
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1013,The antimalware platform deleted history of malware and other potentially unwanted software
+Microsoft-Windows-Kernel-PnP/Configuration,Microsoft-Windows-Kernel-PnP,410,Device driver error
+Application,System Restore,8195,System Restore has been disabled
+Application,ESENT,325,NTDS the database engine created a new database
+System,Microsoft-Windows-UserPnp,20001,Device installation
+SentinelOne/Operational,SentinelOne,26,File Quarantine Already Quarantined
+Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational,Microsoft-Windows-TerminalServices-RemoteConnectionManager,261,RDP Listener received a connection
+Application,Microsoft-Windows-RestartManager,10002,Shutting down application or service
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,12,RegistryEvent (Object create and delete)
+Application,CbDefense,1,Carbon Black Defense
+Microsoft-Windows-Partition/Diagnostic,Microsoft-Windows-Partition,1006,USB/VHD Insertion/Removal
+Microsoft-Windows-TaskScheduler/Operational,Microsoft-Windows-TaskScheduler,141,Scheduled Task deleted
+Security,Microsoft-Windows-Security-Auditing,4774,An account was mapped for logon
+Microsoft-Windows-Storage-Storport/Operational,Microsoft-Windows-StorPort,505,Performance summary for Storport Device
+System,Microsoft-Windows-Kernel-General,1,The system time was changed
+Microsoft-Windows-TerminalServices-LocalSessionManager/Operational,Microsoft-Windows-TerminalServices-LocalSessionManager,41,RDP Begin session arbitration
+System,Microsoft Antimalware,1116,Microsoft Antimalware Detection
+PowerShellCore/Operational,PowerShellCore,4104,Contains contents of scripts run
+System,Service Control Manager,7045,A new service was installed in the system
+Microsoft-Windows-Diagnostics-Performance/Operational,Microsoft-Windows-Diagnostics-Performance,100,Windows System was started
+COMODO Client - Security CEF,File Rating,3,COMODO Security CEF Client
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9712,Finished executing from startup menu
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,5,Process terminated
+Cisco AnyConnect Secure Mobility Client,acvpnagent,2086,Cisco AnyConnect VPN reading host's IP
+Varonis,VrnsMon,5434,System is shutting down
+Microsoft-Windows-WLAN-AutoConfig/Operational,Microsoft-Windows-WLAN-AutoConfig,8001,WIFI connection was successful
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,21,WmiEvent (WmiEventConsumerToFilter activity detected)
+Varonis,VrnsCifsQueue,5129,RPC authentication request
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9710,Finished Executing From RunKey As Job
+Microsoft-Windows-SMBServer/Operational,Microsoft-Windows-SMBServer,1016,Reopen failed
+System,Service Control Manager,7035,Service sent a Start/Stop control
+Windows PowerShell,PowerShell,800,Pipeline Execution Details
+Application,Application Error,1000,Application Error
+System,EventLog,6005,The Event log service was started
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,5001,Real-time Protection was disabled
+Microsoft-Windows-Ntfs/Operational,Microsoft-Windows-Ntfs,151,File deletion on an NTFS-formatted volume
+Application,MsiInstaller,11707,Installation completed successfully
+Application,FSecure-FSecure Application-F-Secure Anti-Virus,207,F-Secure Anti-Virus - Malicious code found in file
+Microsoft-Windows-TerminalServices-LocalSessionManager/Operational,Microsoft-Windows-TerminalServices-LocalSessionManager,25,Remote Desktop Services: Session reconnection succeeded
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,7,New virus definition file loaded
+Cisco AnyConnect Secure Mobility Client,acvpnagent,2085,Cisco AnyConnect VPN client's public address
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9708,Finished execution of command
+Microsoft-Windows-TerminalServices-LocalSessionManager/Operational,Microsoft-Windows-TerminalServices-LocalSessionManager,21,Remote Desktop Services: Session logon succeeded
+Microsoft-Windows-Kernel-PnP/Configuration,Microsoft-Windows-Kernel-PnP,430,Device requires further installation
+Microsoft-Windows-Hyper-V-Worker-Admin,Microsoft-Windows-Hyper-V-Worker,18500,Hyper-V VM started successfully
+System,Microsoft-Windows-GroupPolicy,1129,Absence of network connectivity
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,12,Configuration changed
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,23,Symantec Endpoint Protection Auto-Protect Enabled
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,2,A process changed a file creation time
+Microsoft-Windows-Windows Firewall With Advanced Security/Firewall,Microsoft-Windows-Windows Firewall With Advanced Security,2005,A rule has been modified in the Windows Defender Firewall exception list
+Cisco AnyConnect Secure Mobility Client,acvpnagent,2048,Cisco AnyConnect VPN encrypted connection type
+Microsoft-Windows-DeviceSetupManager/Admin,Microsoft-Windows-DeviceSetupManager,101,Microsoft-Windows-DeviceSetupManager service shutting down
+Windows PowerShell,PowerShell,403,Engine state is changed from Available to Stopped
+System,EventLog,6011,System Name Changed
+Microsoft-Windows-GroupPolicy/Operational,Microsoft-Windows-GroupPolicy,4005,Starting manual processing of policy for USER
+Microsoft-Windows-SmbClient/Security,Microsoft-Windows-SMBClient,31001,SMB Client: DiagReasonISC
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,201,Content download to the client failed
+Microsoft-Windows-TerminalServices-RemoteConnectionManager/Operational,Microsoft-Windows-TerminalServices-RemoteConnectionManager,1149,RDP network connection established
+Microsoft-Windows-GroupPolicy/Operational,Microsoft-Windows-GroupPolicy,4016,List of applicable Group Policy objects
+System,Microsoft-Windows-Winlogon,7002,User logoff
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9706,Finished enumeration of commands for registry key
+System,EventLog,6006,The Event log service was stopped
+Microsoft-Windows-Windows Firewall With Advanced Security/Firewall,Microsoft-Windows-Windows Firewall With Advanced Security,2003,The firewall has enabled/disabled
+Microsoft-Windows-TZUtil/Operational,Microsoft-Windows-TZUtil,20001,TZUtil (changed timezone)
+Varonis,VrnsCifsQueue,5213,Monitoring alert
+Microsoft-Windows-TaskScheduler/Operational,Microsoft-Windows-TaskScheduler,106,Scheduled Task created
+Application,Microsoft-Windows-Winsrv,10002,Terminated due to non-response
+System,TermDD,56,TermDD
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,7,Image loaded
+Microsoft-Windows-Bits-Client/Operational,Microsoft-Windows-Bits-Client,59,BITS transfer has started
+Application,Microsoft-Windows-Winsrv,10001,Application is stopping shutdown operation
+Varonis,VrnsCifsQueue,5176,Proxy connection
+CrowdStrike-Falcon Sensor-CSFalconService/Operational,CrowdStrike-Falcon Sensor-CSFalconService,4,CrowdStrike Alert
+Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational,Microsoft-Windows-RemoteDesktopServices-RdpCoreTS,98,Successful RDP Connections
+System,Microsoft-Windows-GroupPolicy,1501,Group Policy Settings processed successfully for USER
+Microsoft-Windows-Storsvc/Diagnostic,Microsoft-Windows-Storsvc,1001,USB Connection
+Microsoft-Windows-TerminalServices-RDPClient/Operational,Microsoft-Windows-TerminalServices-ClientActiveXCore,1105,RDP the multi-transport connection has been disconnected
+Application,MetaFrameEvents,1106,Citrix client printer auto-creation failed
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,5000,Real-time Protection was enabled
+Microsoft-Windows-VHDMP/Operational,Microsoft-Windows-VHDMP,2,A VHD has been removed
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,22,DNSEvent (DNS query)
+Microsoft-Windows-User Profile Service/Operational,Microsoft-Windows-User Profiles Service,2,An account was logged on
+CiscoSecureEndpoint/Events,CiscoSecureEndpoint,100,Cisco Secure Endpoint Detection
+Varonis,VrnsSvcFW,900,Volume information
+Application,Screenconnect,30,Screenconnect error - Your host has ended the remote session.
+Microsoft-Windows-Bits-Client/Operational,Microsoft-Windows-Bits-Client,60,BITS transfer has stopped
+System,Microsoft-Windows-DriverFrameworks-UserMode,10000,Device driver installations begins (Device connection)
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,6,Driver loaded
+Kaspersky Security,OnDemandScan,3203,Threat detected
+Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational,Microsoft-Windows-RemoteDesktopServices-RdpCoreTS,140,RDP connection from the client computer failed
+Microsoft-Windows-Application-Experience/Program-Telemetry,Microsoft-Windows-Application-Experience,500,Application Experience Program Telemetry
+Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational,Microsoft-Windows-RemoteDesktopServices-RdpCoreTS,131,RDP server accepted a new TCP connection
+Microsoft-Windows-SMBServer/Audit,Microsoft-Windows-SMBServer,3000,A client attempted to access the server using SMB1
+Application,Citrix Desktop Service,1049,Citrix user session disconnected
+Microsoft-Windows-Hyper-V-VMMS-Admin,Microsoft-Windows-Hyper-V-VMMS,18303,Hyper-V VM was exported
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1008,"Error - The antimalware platform attempted to perform an action to protect your system from malware or other potentially unwanted software, but the action failed."
+adPWDManager,adPWDManager,110,User account password change
+Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational,Microsoft-Windows-RemoteDesktopServices-RdpCoreTS,72,RDP Interface method called
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9705,Started enumeration of commands for registry key
+System,Service Control Manager,7034,Service crashed unexpectedly
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1116,Detection - The antimalware platform detected malware or other potentially unwanted software
+Microsoft-Windows-SmbClient/Security,Microsoft-Windows-SMBClient,31010,The SMB client failed to connect to the share
+Microsoft-Windows-Application-Experience/Program-Compatibility-Assistant,Microsoft-Windows-Program-Compatibility-Assistant,17,Path of executed program
+Microsoft-Windows-Hyper-V-Worker-Admin,Microsoft-Windows-Hyper-V-Worker,18502,Hyper-V VM turned off
+Kaspersky Security,Real-Time File Protection,3203,Threat detected (Real-time file protection)
+Application,Sophos System Protection,42,Sophos System Protection
+Microsoft-Windows-Ntfs/Operational,Microsoft-Windows-Ntfs,146,IO Connection
+System,Service Control Manager,7031,Service crashed unexpectedly
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9709,Executing From RunKey As Job
+Microsoft-Windows-Dhcp-Client/Admin,Microsoft-Windows-Dhcp-Client,50067,Windows DHCP Client WiFi SSID Received
+Application,MsiInstaller,1040,Installer Started
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1004,An antimalware scan was resumed
+System,Microsoft-Windows-Kernel-General,13,OS was shutdown
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,28,FileBlockShredding (A file was blocked from being deleted)
+Microsoft-Windows-Ntfs/Operational,Microsoft-Windows-Ntfs,142,NTFS-formatted drive attached
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1005,Error - An antimalware scan failed
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,24,Symantec Endpoint Protection Auto-Protect Disabled
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9702,RunOnceEx commands finished
+Microsoft-Windows-WPD-MTPClassDriver/Operational,Microsoft-Windows-WPD-MTPClassDriver,1005,(Mobile) MTP Connection
+System,Microsoft-Windows-GroupPolicy,1130,Group Policy Script Failure
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,3,Network connection
+Application,Windows Error Reporting,1001,Application Crash
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,13,RegistryEvent (Value Set)
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9711,Executing from startup menu
+Microsoft-Windows-NetworkProfile/Operational,Microsoft-Windows-NetworkProfile,10000,Connect to the Internet
+Microsoft-Windows-TerminalServices-RDPClient/Operational,Microsoft-Windows-TerminalServices-ClientActiveXCore,1024,RDP Client is trying to connect to the server
+Microsoft-Windows-WinINet-Config/ProxyConfigChanged,Microsoft-Windows-WinINet-Config,5600,Proxy configuration changed
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,34056,Symantec Endpoint Protection Tamper Protection Disabled
+Varonis,VrnsCifsQueueReport,5120,Volumne statistics
+Microsoft-Windows-VHDMP/Operational,Microsoft-Windows-VHDMP,1,A VHD has been created
+Microsoft-Windows-PrintService/Operational,Microsoft-Windows-PrintService,316,Adding a printer driver
+Microsoft-Windows-Bits-Client/Operational,Microsoft-Windows-Bits-Client,4,BITS job completion
+Microsoft-Windows-VHDMP-Operational,Microsoft-Windows-VHDMP,2,A VHD has been removed
+Varonis,VrnsCifsQueue,5220,List of Devices Monitored and Logged by Varonis
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,4,Sysmon service state changed
+Microsoft-Windows-TaskScheduler/Operational,Microsoft-Windows-TaskScheduler,140,Scheduled Task updated
+Microsoft-Windows-UniversalTelemetryClient/Operational,Microsoft-Windows-UniversalTelemetryClient,55,Internet connectivity status
+Microsoft-Windows-TaskScheduler/Operational,Microsoft-Windows-TaskScheduler,200,Scheduled Task executed
+Microsoft-Windows-Windows Firewall With Advanced Security/Firewall,Microsoft-Windows-Windows Firewall With Advanced Security,2006,A rule has been deleted in the Windows Defender Firewall exception list
+Splashtop-Splashtop Streamer-Remote Session/Operational,Splashtop-Splashtop Streamer-Remote Session,1100,Splashtop file transfer
+Microsoft-Windows-TaskScheduler/Operational,Microsoft-Windows-TaskScheduler,100,Scheduled Task started
+Application,Trellix Endpoint Security,3,Trellix Endpoint Detection
+Microsoft-Windows-DateTimeControlPanel/Operational,Microsoft-Windows-DateTimeControlPanel,20000,The time was changed through the Control Panel
+CrowdStrike-Falcon Sensor-CSFalconService/Operational,CrowdStrike-Falcon Sensor-CSFalconService,3,CrowdStrike Alert
+Microsoft-Windows-Diagnostics-Performance/Operational,Microsoft-Windows-Diagnostics-Performance,101,Boot Performance Monitoring Degradation
+System,Service Control Manager,7036,Service started or stopped
+System,Microsoft-Windows-DistributedCOM,10028,DCOM was unable to communicate with the computer
+Microsoft-Windows-SMBServer/Security,Microsoft-Windows-SMBServer,551,SMB session authentication failure
+Application,System Restore,8194,Restore point created successfully
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,17,PipeEvent (Pipe Created)
+Microsoft-Windows-Windows Firewall With Advanced Security/Firewall,Microsoft-Windows-Windows Firewall With Advanced Security,2004,A rule has been added to the Windows Defender Firewall exception list
+Microsoft-Windows-Hyper-V-Worker-Admin,Microsoft-Windows-Hyper-V-Worker,18514,Hyper-V VM reset by guest OS
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,5007,The antimalware platform configuration changed
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,100,Symantec Endpoint Protection client is online and able to access the management server
+Splashtop-Splashtop Streamer-Remote Session/Operational,Splashtop-Splashtop Streamer-Remote Session,1101,Splashtop file transfer
+Cisco AnyConnect Secure Mobility Client,acvpnagent,2127,Cisco AnyConnect VPN IP assigned
+Microsoft-Windows-DeviceSetupManager/Admin,Microsoft-Windows-DeviceSetupManager,112,USB Connection
+System,Microsoft-Windows-GroupPolicy,1500,Group Policy Settings processed successfully for COMPUTER
+Microsoft-Windows-Windows Firewall With Advanced Security/Firewall,Microsoft-Windows-Windows Firewall With Advanced Security,2011,Windows Firewall unable to notify user of blocked application
+System,EventLog,6008,Unexpected system shutdown
+Cisco AnyConnect Secure Mobility Client,acvpnagent,2079,Cisco AnyConnect VPN Host Configuration
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,16,ServiceConfigurationChange
+Microsoft-Windows-TerminalServices-RDPClient/Operational,Microsoft-Windows-TerminalServices-ClientActiveXCore,1103,The RDP client has established a multi-transport connection to the server
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1006,Detection - The antimalware engine found malware or other potentially unwanted software
+Application,SecurityCenter,15,Windows Security Center State Changed
+Microsoft-Windows-Kernel-PnP/Configuration,Microsoft-Windows-Kernel-PnP,400,Device driver error
+Microsoft-Windows-Winlogon/Operational,Microsoft-Windows-Winlogon,811,User activity
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,24,ClipboardChange (New content in the clipboard)
+Microsoft-Windows-GroupPolicy/Operational,Microsoft-Windows-GroupPolicy,4017,Making LDAP calls to connect and bind to Active Directory
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,101,Symantec Endpoint Protection client is unable to connect to the management server
+Microsoft-Windows-TerminalServices-RDPClient/Operational,Microsoft-Windows-TerminalServices-ClientActiveXCore,1102,RDP client has initiated a multi-transport connection to the server
+System,Microsoft-Windows-Power-Troubleshooter,1,Sleep/wake events
+Microsoft-Windows-AppLocker/EXE and DLL,Microsoft-Windows-AppLocker,8002,An executable was allowed to run
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,28115,Shortcut creation log after program installation
+Splashtop-Splashtop Streamer-Remote Session/Operational,Splashtop-Splashtop Streamer-Remote Session,1000,Splashtop session connected
+Microsoft-Windows-Hyper-V-VMMS-Admin,Microsoft-Windows-Hyper-V-VMMS,13003,A Hyper-V VM was deleted
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,8,CreateRemoteThread
+Microsoft-Windows-WMI-Activity/Operational,Microsoft-Windows-WMI-Activity,5858,WMI Query Error
+Microsoft-Windows-Application-Experience/Program-Telemetry,Microsoft-Windows-Application-Experience,505,Application Experience Program Telemetry
+Microsoft-Windows-PowerShell/Operational,Microsoft-Windows-PowerShell,4104,Contains contents of scripts run
+Microsoft-Windows-TerminalServices-LocalSessionManager/Operational,Microsoft-Windows-TerminalServices-LocalSessionManager,22,Remote Desktop Services: Shell start notification received
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,21,Scan canceled
+System,Service Control Manager,7040,Start type of a service has changed
+Microsoft-Windows-AppID/Operational,Microsoft-Windows-AppID,4004,Code Signature Verification
+Microsoft-Windows-Hyper-V-Worker-Admin,Microsoft-Windows-Hyper-V-Worker,18512,Hyper-V VM reset by hyper-v manager
+Microsoft-Windows-WLAN-AutoConfig/Operational,Microsoft-Windows-WLAN-AutoConfig,8003,WIFI connection was terminated
+Application,FSecure-FSecure Application-F-Secure Anti-Virus,722,F-Secure Anti-Virus - Web Traffic Scanning Alert
+Microsoft-Windows-TerminalServices-RDPClient/Operational,Microsoft-Windows-TerminalServices-ClientActiveXCore,1029,RDP (outgoing connection)
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,2050,Defender uploaded a file for further analysis
+Microsoft-Windows-TaskScheduler/Operational,Microsoft-Windows-TaskScheduler,129,Scheduled Task created
+Microsoft-Windows-TerminalServices-LocalSessionManager/Operational,Microsoft-Windows-TerminalServices-LocalSessionManager,24,Remote Desktop Services: Session has been disconnected
+Microsoft-Windows-RemoteDesktopServices-RdpCoreTS/Operational,Microsoft-Windows-RemoteDesktopServices-RdpCoreTS,104,Client timezone bias from UTC
+Microsoft-Windows-AppLocker/EXE and DLL,Microsoft-Windows-AppLocker,8004,An executable was prevented from running.
+Application,CylanceSvc,2,Cylance alert
+Application,MsiInstaller,1034,A program was deleted
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,51,Security Risk Found
+Microsoft-Windows-Ntfs/Operational,Microsoft-Windows-Ntfs,145,NTFS-formatted drive attached
+Microsoft-Windows-SMBServer/Operational,Microsoft-Windows-SMBServer,1020,File system operation has taken longer than expected
+SentinelOne/Operational,SentinelOne,91,Sentinel Remote Script Logging
+Application,Application Hang,1002,The program has been terminated
+Security,Microsoft-Windows-Security-Auditing,5379,Credential Manager credentials were read
+Microsoft-Windows-WMI-Activity/Operational,Microsoft-Windows-WMI-Activity,5861,WMI Registration of Permanent Event Consumer
+Application,MsiInstaller,1033,A program was installed
+Microsoft-Windows-PrintService/Operational,Microsoft-Windows-PrintService,307,Printing a document
+Microsoft-Windows-TerminalServices-Gateway/Operational,Microsoft-Windows-TerminalServices-Gateway,302,Remote Desktop Services: User connected to resource
+Microsoft-Windows-TerminalServices-RDPClient/Operational,Microsoft-Windows-TerminalServices-ClientActiveXCore,1027,RDP Connected to domain
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9703,RunOnce commands started
+System,Microsoft-Windows-Kernel-Power,42,Sleep/wake events
+Microsoft-Windows-WLAN-AutoConfig/Operational,Microsoft-Windows-WLAN-AutoConfig,8000,WIFI connection was attempted
+Microsoft-Windows-AppLocker/MSI and Script,Microsoft-Windows-AppLocker,8007,A script or MSI was prevented from running
+Microsoft-Windows-AppLocker/Packaged app-Execution,Microsoft-Windows-AppLocker,8020,A packaged app was allowed to run
+System,Microsoft-Windows-Eventlog,104,Event log cleared
+Application,Citrix Desktop Service,1027,Citrix user session started
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1003,Warning - An antimalware scan was paused
+System,Application Popup,26,Application Error
+OAlerts,Microsoft Office 16 Alerts,300,OAlerts 300 event
+Application,MSSQLSERVER,15457,MSSQLSERVER Configuration change
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,129,"Reputation check timed out during unproven file evaluation, likely due to network delays"
+Application,FSecure-FSecure Application-F-Secure Anti-Virus,296,F-Secure Anti-Virus - Spyware detected
+SentinelOne/Operational,SentinelOne,31,Sentinel Threat Detected
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,200,Content downloaded successfully to the client
+Microsoft-Windows-TerminalServices-LocalSessionManager/Operational,Microsoft-Windows-TerminalServices-LocalSessionManager,23,Remote Desktop Services: Session logoff succeeded
+Microsoft-Windows-PowerShell/Operational,Microsoft-Windows-PowerShell,4100,Executing pipeline
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,9,RawAccessRead
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,19,WmiEvent (WmiEventFilter activity detected)
+Microsoft-Windows-WMI-Activity/Operational,Microsoft-Windows-WMI-Activity,5857,WMI wmiprvse execution
+Microsoft-Windows-DriverFrameworks-UserMode/Operational,Microsoft-Windows-DriverFrameworks-UserMode,2100,USB Connection
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9701,RunOnceEx commands started
+Microsoft-Windows-TerminalServices-RDPClient/Operational,Microsoft-Windows-TerminalServices-ClientActiveXCore,1026,RDP ClientActiveX has been disconnected
+Microsoft-Windows-Ntfs/Operational,Ntfs,55,The Master File Table (MFT) contains a corrupted file record.
+OAlerts,Microsoft Office 15 Alerts,300,OAlerts 300 event
+Microsoft-Windows-Storage-ClassPnP/Operational,Microsoft-Windows-StorDiag,507,Completing a failed non-ReadWrite SCSI SRB request
+Application,ESENT,327,NTDS the database engine detached a database
+Microsoft-Windows-StorageSpaces-Driver/Operational,Microsoft-Windows-StorageSpaces-Driver,207,USB Connection
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1150,Defender is up and running in a healthy state
+Windows PowerShell,PowerShell,400,Engine state is changed from None to Available
+Microsoft-Windows-SmbClient/Connectivity,Microsoft-Windows-SMBClient,30805,SMB Client: the client lost its session to the server
+Windows PowerShell,PowerShell,600,Provider is Started
+System,Microsoft-Windows-UserPnp,20003,Service installation
+Microsoft-Windows-Hyper-V-VMMS-Admin,Microsoft-Windows-Hyper-V-VMMS,18304,A new Hyper-V VM was created
+SentinelOne/Operational,SentinelOne,32,Sentinel Mitigation Report
+Microsoft-Windows-WLAN-AutoConfig/Operational,Microsoft-Windows-WLAN-AutoConfig,8002,WIFI connection was failed
+System,Microsoft-Windows-Audit-CVE,2,An attempt to exploit a known vulnerability detected
+Cisco AnyConnect Secure Mobility Client,acvpnagent,2039,Cisco AnyConnect VPN Connection Established
+Application,CbDefense,49,Carbon Black Defense
+Microsoft-Windows-TaskScheduler/Operational,Microsoft-Windows-TaskScheduler,119,Scheduled Task triggered on logon
+Microsoft-Windows-Bits-Client/Operational,Microsoft-Windows-Bits-Client,5,BITS job cancellation
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,27,FileBlockExecutable (An executable was blocked)
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1001,An antimalware scan finished
+Microsoft-Windows-Bits-Client/Operational,Microsoft-Windows-Bits-Client,64,"BITS Job Configured to Launch, but failed will continue to try"
+Microsoft-Windows-SmbClient/Connectivity,Microsoft-Windows-SMBClient,30806,SMB Client: The client re-established its session to the server
+Varonis,VrnsCifsQueue,5140,New mount point detected
+Microsoft-Windows-TerminalServices-Gateway/Operational,Microsoft-Windows-TerminalServices-Gateway,200,Remote Desktop Services: User meets resource authorization policy requirements needed to connect to TS Gateway server
+Microsoft-Windows-Shell-Core/Operational,Microsoft-Windows-Shell-Core,9707,Started execution of command
+Application,McAfee Endpoint Security,3,McAfee Endpoint Detection
+Microsoft-Windows-TerminalServices-Gateway/Operational,Microsoft-Windows-TerminalServices-Gateway,313,Remote Desktop Services: User has initiated an inbound connection
+Application,MSSQLSERVER,33205,MSSQLSERVER Audit event
+Cisco AnyConnect Secure Mobility Client,acvpndownloader,5005,Cisco AnyConnect VPN connecting to target gateway X
+Microsoft-Windows-Windows Defender/Operational,Microsoft-Windows-Windows Defender,1002,Warning - An antimalware scan was stopped before it finished
+Application,MsiInstaller,1042,Installer Exited
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,11,FileCreate
+Microsoft-Windows-Hyper-V-Worker-Admin,Microsoft-Windows-Hyper-V-Worker,18508,Hyper-V VM was shut down
+Application,FSecure-FSecure-F-Secure Anti-Virus,103,F-Secure Anti-Virus Detection
+Varonis,VrnsCifsQueue,5214,Volume Shadow Copy successfully mounted
+Microsoft-Windows-User Profile Service/Operational,Microsoft-Windows-User Profiles Service,67,Account Information
+OAlerts,Microsoft Office 14 Alerts,300,OAlerts 300 event
+Microsoft-Windows-Diagnostics-Performance/Operational,Microsoft-Windows-Diagnostics-Performance,200,Windows System was shutdown
+Application,CylanceSvc,1,Cylance alert
+Microsoft-Windows-Bits-Client/Operational,Microsoft-Windows-Bits-Client,61,BITS transfer has stopped
+System,EventLog,6013,System uptime
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,26,FileDeleteDetected (A file delete was detected)
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,14,RegistryEvent (Key and Value Rename)
+CiscoSecureEndpoint/Events,CiscoSecureEndpoint,1300,Cisco Secure Endpoint Detection
+Microsoft-Windows-SmbClient/Connectivity,Microsoft-Windows-SMBClient,30807,The connection to the share was lost
+Microsoft-Windows-Winlogon/Operational,Microsoft-Windows-Winlogon,812,User activity
+OpenSSH/Operational,OpenSSH,4,SSH activity
+Microsoft-Windows-Sysmon/Operational,Microsoft-Windows-Sysmon,20,WmiEvent (WmiEventConsumer activity detected)
+System,Microsoft-Windows-Kernel-General,12,OS was started
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,202,Symantec Endpoint Protection client is online and able to access the management server
+Symantec Endpoint Protection Client,Symantec Endpoint Protection Client,2,Scan stopped
+Application,MsiInstaller,11708,Installation operation failed.
+Microsoft-Windows-Storage-Storport/Operational,Microsoft-Windows-StorPort,504,Error summary for Storport Device
