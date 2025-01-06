@@ -1,0 +1,33 @@
+author: Khalid Grandi (https://github.com/xaled)
+description: ''
+title: A Kerberos Ticket-granting-ticket (TGT) was denied because the device does
+  not meet the access control restrictions
+event_id: 4820
+channel: Security
+provider: Microsoft-Windows-Security-Auditing
+event_type: null
+data_processing: null
+values:
+  - name: TicketEncryptionType
+    key: TicketEncryptionType
+    value_mapping:
+      '0x1': DES-CBC-CRC
+      '0x3': DES-CBC-MD5
+      '0x11': AES128-CTS-HMAC-SHA1-96
+      '0x12': AES256-CTS-HMAC-SHA1-96
+      '0x17': RC4-HMAC
+      '0x18': RC4-HMAC-EXP
+      '0xFFFFFFFF': '-'
+  - name: PreAuthType
+    key: PreAuthType
+    value_mapping:
+      '0': '-'
+      '2': PA-ENC-TIMESTAMP
+      '11': PA-ETYPE-INFO
+      '15': PA-PK-AS-REP_OLD
+      '17': PA-PK-AS-REP
+      '19': PA-ETYPE-INFO2
+      '20': PA-SVR-REFERRAL-INFO
+      '138': PA-ENCRYPTED-CHALLENGE
+references:
+  - https://system32.eventsentry.com/security/event/4820

@@ -1,0 +1,71 @@
+author: Khalid Grandi (https://github.com/xaled)
+description: ''
+title: A directory service object was modified
+event_id: 5136
+channel: Security
+provider: Microsoft-Windows-Security-Auditing
+event_type: S
+data_processing: null
+values:
+  - name: AttributeSyntaxOID
+    key: AttributeSyntaxOID
+    value_mapping:
+      2.5.5.0: Undefined
+      2.5.5.1: Object(DN-DN)
+      2.5.5.2: String(Object-Identifier)
+      2.5.5.3: Case-Sensitive String
+      2.5.5.4: CaseIgnoreString(Teletex)
+      2.5.5.5: String(Printable), String(IA5)
+      2.5.5.6: String(Numeric)
+      2.5.5.7: Object(DN-Binary)
+      2.5.5.8: Boolean
+      2.5.5.9: Integer, Enumeration
+      2.5.5.10: String(Octet)
+      2.5.5.11: String(UTC-Time), String(Generalized-Time)
+      2.5.5.12: String(Unicode)
+      2.5.5.13: Object(Presentation-Address)
+      2.5.5.14: Object(DN-String)
+      2.5.5.15: String(NT-Sec-Desc)
+      2.5.5.16: LargeInteger
+      2.5.5.17: String(Sid)
+references:
+  - https://system32.eventsentry.com/security/event/5136
+  - https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-5136
+
+
+# Example Event Data:
+# <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+# <System>
+#  <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+#  <EventID>5136</EventID>
+#  <Version>0</Version>
+#  <Level>0</Level>
+#  <Task>14081</Task>
+#  <Opcode>0</Opcode>
+#  <Keywords>0x8020000000000000</Keywords>
+#  <TimeCreated SystemTime="2015-08-28T17:36:04.129472600Z" />
+#  <EventRecordID>410204</EventRecordID>
+#  <Correlation />
+#  <Execution ProcessID="516" ThreadID="4020" />
+#  <Channel>Security</Channel>
+#  <Computer>DC01.contoso.local</Computer>
+#  <Security />
+#  </System>
+# <EventData>
+#  <Data Name="OpCorrelationID">{02647639-8626-43CE-AFE6-7AA1AD657739}</Data>
+#  <Data Name="AppCorrelationID">-</Data>
+#  <Data Name="SubjectUserSid">S-1-5-21-3457937927-2839227994-823803824-1104</Data>
+#  <Data Name="SubjectUserName">dadmin</Data>
+#  <Data Name="SubjectDomainName">CONTOSO</Data>
+#  <Data Name="SubjectLogonId">0x32004</Data>
+#  <Data Name="DSName">contoso.local</Data>
+#  <Data Name="DSType">%%14676</Data>
+#  <Data Name="ObjectDN">CN=Sergey,CN=Builtin,DC=contoso,DC=local</Data>
+#  <Data Name="ObjectGUID">{4FE80A66-5F93-4F73-B215-68678058E613}</Data>
+#  <Data Name="ObjectClass">user</Data>
+#  <Data Name="AttributeLDAPDisplayName">userAccountControl</Data>
+#  <Data Name="AttributeSyntaxOID">2.5.5.9</Data>
+#  <Data Name="AttributeValue">512</Data>
+#  <Data Name="OperationType">%%14675</Data>
+#  </EventData>
+#  </Event>

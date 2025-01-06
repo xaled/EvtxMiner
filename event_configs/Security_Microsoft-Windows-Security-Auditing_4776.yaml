@@ -1,0 +1,62 @@
+author: Khalid Grandi (https://github.com/xaled)
+description: ''
+title: The computer attempted to validate the credentials for an account
+event_id: 4776
+channel: Security
+provider: Microsoft-Windows-Security-Auditing
+event_type: S, F
+data_processing: null
+values:
+  - name: Status
+    key: Status
+    value_mapping:
+      '0x0': STATUS_SUCCESS
+      0XC000005E: STATUS_NO_LOGON_SERVERS
+      0XC0000064: STATUS_NO_SUCH_USER
+      0XC000006A: STATUS_WRONG_PASSWORD
+      0XC000006D: STATUS_LOGON_FAILURE
+      0XC000006E: STATUS_ACCOUNT_RESTRICTION
+      0XC000006F: STATUS_INVALID_LOGON_HOURS
+      0XC0000070: STATUS_INVALID_WORKSTATION
+      0XC0000071: STATUS_PASSWORD_EXPIRED
+      0XC0000072: STATUS_ACCOUNT_DISABLED
+      0XC00000DC: STATUS_INVALID_SERVER_STATE
+      0XC0000133: STATUS_TIME_DIFFERENCE_AT_DC
+      0XC000015B: STATUS_LOGON_TYPE_NOT_GRANTED
+      0XC000018C: STATUS_TRUSTED_DOMAIN_FAILURE
+      0XC0000192: STATUS_NETLOGON_NOT_STARTED
+      0XC0000193: STATUS_ACCOUNT_EXPIRED
+      0XC0000224: STATUS_PASSWORD_MUST_CHANGE
+      0XC0000234: STATUS_ACCOUNT_LOCKED_OUT
+      0XC00002EE: STATUS_UNFINISHED_CONTEXT_DELETED
+      0XC0000413: STATUS_AUTHENTICATION_FIREWALL_FAILED
+references:
+  - https://system32.eventsentry.com/security/event/4776
+  - https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4776
+
+
+# Example Event Data:
+# <Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+# <System>
+#  <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-A5BA-3E3B0328C30D}" />
+#  <EventID>4776</EventID>
+#  <Version>0</Version>
+#  <Level>0</Level>
+#  <Task>14336</Task>
+#  <Opcode>0</Opcode>
+#  <Keywords>0x8010000000000000</Keywords>
+#  <TimeCreated SystemTime="2015-07-25T04:38:11.003163100Z" />
+#  <EventRecordID>165437</EventRecordID>
+#  <Correlation />
+#  <Execution ProcessID="500" ThreadID="532" />
+#  <Channel>Security</Channel>
+#  <Computer>DC01.contoso.local</Computer>
+#  <Security />
+#  </System>
+# <EventData>
+#  <Data Name="PackageName">MICROSOFT\_AUTHENTICATION\_PACKAGE\_V1\_0</Data>
+#  <Data Name="TargetUserName">dadmin</Data>
+#  <Data Name="Workstation">WIN81</Data>
+#  <Data Name="Status">0xc0000234</Data>
+#  </EventData>
+#  </Event>
