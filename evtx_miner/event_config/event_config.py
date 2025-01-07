@@ -65,7 +65,7 @@ class EventConfig:
                 # TODO Unusual data tags: (with attributes other than Name or children) did not find any
 
                 # Embedded XML
-                if is_likely_xml(value):
+                if value and is_likely_xml(value):
                     value = embedded_xml_to_dict(value)
 
                 # if first_value is None and is_data:
