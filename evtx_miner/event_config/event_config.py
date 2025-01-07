@@ -1,4 +1,4 @@
-from .actions import level_mapping
+from .actions import level_mapping, find_correlation_data
 from .value import Value
 from ..xml_to_dict import xml_to_dict_ex1, embedded_xml_to_dict, is_likely_xml
 import logging
@@ -44,11 +44,24 @@ class EventConfig:
         self.data_processing: _EventConfigDataProcessing = _EventConfigDataProcessing(**(data_processing or {}))
 
     def process_evtx_record(self, record_xml_tree):
+        def _enrich_with_correlations(data_dict, normalized_dict):
+            for key, value in list(traverse_dict_str(data_dict)):
+                enrich_data, normalized = find_correlation_data(key, value, timestamp)
+                if not enrich_data:
+                    continue
+
+                print(">>> found enrich data", self.event_id, enrich_data, key, value)
+
+                if normalized:
+                    normalized_dict.update(enrich_data)
+                else:
+                    data_dict.update(enrich_data)
+
         def _extract_values(_dt):
             to_delete = []
             normalized_dict = {}
             for value_config in self.values:
-                value_config.extract_value(record_xml_tree, _dt, to_delete, normalized_dict)
+                value_config.extract_value(record_xml_tree, _dt, to_delete, normalized_dict, timestamp)
 
             return _dt, to_delete, normalized_dict
 
@@ -119,16 +132,20 @@ class EventConfig:
             # Remove temps
             data_dict = {_k: _v for _k, _v in data_dict.items() if _k not in to_delete}
 
+            # find correlations
+            _enrich_with_correlations(data_dict, normalized_dict)
+
             return data_dict, normalized_dict, title
 
         # channel = xpath(record_xml_tree, '/Event/System/Channel')
         # provider = xpath(record_xml_tree, '/Event/System/Provider/@Name')
         # event_id = xpath(record_xml_tree, '/Event/System/EventID', cast=int)
+        timestamp = xpath(record_xml_tree, '/Event/System/TimeCreated/@SystemTime')
 
         event_data, normalized_fields, event_data_title = _get_event_data()
 
         parsed_data = {
-            'timestamp': xpath(record_xml_tree, '/Event/System/TimeCreated/@SystemTime'),
+            'timestamp': timestamp,
             'channel': self.channel,
             'provider': self.provider,
             'event_id': self.event_id,
@@ -209,3 +226,11 @@ def extract_keywords(hex_string):
         value = value >> 1
 
     return flags
+
+
+def traverse_dict_str(parent):
+    for key, value in parent.items():
+        if isinstance(value, dict):
+            yield from traverse_dict_str(value)
+        elif isinstance(value, str):
+            yield key, value

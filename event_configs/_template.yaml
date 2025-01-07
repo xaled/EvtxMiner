@@ -74,3 +74,14 @@ values:
     options:
       - _payload_option1
       - _payload_option2
+  -
+    name: TargetLogonId
+    correlation:
+      search_fields:
+        - SubjectLogonId
+      uuid: false
+      enrich_fields:
+        - IpAddress
+        - WorkstationName
+      normalized: false
+
