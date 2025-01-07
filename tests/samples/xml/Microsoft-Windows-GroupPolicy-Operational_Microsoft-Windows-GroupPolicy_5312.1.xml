@@ -1,0 +1,28 @@
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-GroupPolicy" Guid="AEA1B4FA-97D1-45F2-A64C-4D69FFFD92C9">
+    </Provider>
+    <EventID>5312</EventID>
+    <Version>0</Version>
+    <Level>4</Level>
+    <Task>0</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x4000000000000000</Keywords>
+    <TimeCreated SystemTime="2024-02-14T04:04:27.392271Z">
+    </TimeCreated>
+    <EventRecordID>14736417</EventRecordID>
+    <Correlation ActivityID="D786BED0-910C-4CB6-B82E-FC100E750EAF">
+    </Correlation>
+    <Execution ProcessID="1440" ThreadID="5476">
+    </Execution>
+    <Channel>Microsoft-Windows-GroupPolicy/Operational</Channel>
+    <Computer>srvdcp.mhai.local</Computer>
+    <Security UserID="S-1-5-18">
+    </Security>
+  </System>
+  <EventData>
+    <Data Name="DescriptionString">Default Domain Policy
+</Data>
+    <Data Name="GPOInfoList">&lt;GPO ID=&quot;{31B2F340-016D-11D2-945F-00C04FB984F9}&quot;&gt;&lt;Name&gt;Default Domain Policy&lt;/Name&gt;&lt;Version&gt;196611&lt;/Version&gt;&lt;SOM&gt;LDAP://DC=mhai,DC=local&lt;/SOM&gt;&lt;FSPath&gt;\\mhai.local\sysvol\mhai.local\Policies\{31B2F340-016D-11D2-945F-00C04FB984F9}\User&lt;/FSPath&gt;&lt;Extensions&gt;[{35378EAC-683F-11D2-A89A-00C04FBBCFA2}{D02B1F73-3407-48AE-BA88-E8213C6761F1}][{A2E30F80-D7DE-11D2-BBDE-00C04F86AE3B}{FC715823-C5FB-11D1-9EEF-00A0C90347FF}]&lt;/Extensions&gt;&lt;/GPO&gt;</Data>
+  </EventData>
+</Event>
