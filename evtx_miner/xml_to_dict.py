@@ -1,3 +1,20 @@
+import re
+from lxml import etree as ET
+
+XML_DECL_PATTERN = re.compile(r'\s*<\?xml.*\?>\s*')
+XMLNS_PATTERN = re.compile(r'\s+xmlns(:\w+)?="[^"]+"')
+LIKELY_XML_REGEX = re.compile(r"</\w+>")
+
+
+def clean_xml(xml_str):
+    # Remove XML declaration
+    xml_str = XML_DECL_PATTERN.sub('', xml_str)
+    # Remove xmlns namespace attributes
+    xml_str = XMLNS_PATTERN.sub('', xml_str)
+
+    return xml_str
+
+
 def normalize_xml_dict_ex1(xml_dict, is_root=False):
     # Add tails and text to children
     if xml_dict['@children']:
@@ -77,3 +94,16 @@ def xml_to_dict_ex1(element, is_root=True):
         '@text': element.text.strip() if element.text is not None else None,
         '@children': [xml_to_dict_ex1(el, is_root=False) for el in element]
     }, is_root=is_root)
+
+
+def is_likely_xml(s):
+    return s.strip().startswith("<") and re.search(LIKELY_XML_REGEX, s)
+
+
+def embedded_xml_to_dict(value):
+    try:
+        xml_string = clean_xml(value)
+        tree = ET.fromstring(xml_string)
+        return xml_to_dict_ex1(tree)
+    except:
+        return value

@@ -1,7 +1,6 @@
 from .actions import level_mapping
 from .value import Value
-
-from ..xml_to_dict import xml_to_dict_ex1
+from ..xml_to_dict import xml_to_dict_ex1, embedded_xml_to_dict, is_likely_xml
 import logging
 from evtx_miner.xpath import xpath
 
@@ -53,19 +52,25 @@ class EventConfig:
 
             return _dt, to_delete, normalized_dict
 
-        def _extract_event_data(_event_data_element):  # TODO: to update; may lose data
+        def _extract_event_data(_event_data_element):
             title = None
             dp_config = self.data_processing
             event_data_dict = dict()
             event_data_list = list()
-            first_value = None
+            # first_value = None
             for ix, child in enumerate(_event_data_element):
                 # print(ix, child)
                 is_data = child.tag.lower() == 'data'
                 value = child.text.strip() if child.text is not None else None
+                # TODO Unusual data tags: (with attributes other than Name or children) did not find any
 
-                if first_value is None and is_data:
-                    first_value = value
+                # Embedded XML
+                if is_likely_xml(value):
+                    value = embedded_xml_to_dict(value)
+
+                # if first_value is None and is_data:
+                #     first_value = value
+
                 key = child.attrib.get('Name', None)
                 if key or not is_data:
                     event_data_dict[key or child.tag.lower()] = value

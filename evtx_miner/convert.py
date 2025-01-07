@@ -1,26 +1,14 @@
 import json
 from os import listdir, makedirs
 from os.path import join, basename, dirname
-import re
-
 from evtx import PyEvtxParser
 from lxml import etree as ET
 from .event_config import get_event_config
+from .xml_to_dict import clean_xml
 from .xpath import xpath
 import logging
 
 logger = logging.getLogger(__name__)
-XML_DECL_PATTERN = re.compile(r'\s*<\?xml.*\?>\s*')
-XMLNS_PATTERN = re.compile(r'\s+xmlns(:\w+)?="[^"]+"')
-
-
-def clean_xml(xml_str):
-    # Remove XML declaration
-    xml_str = XML_DECL_PATTERN.sub('', xml_str)
-    # Remove xmlns namespace attributes
-    xml_str = XMLNS_PATTERN.sub('', xml_str)
-
-    return xml_str
 
 
 def convert_evtx_directory(input_dir, output_dir):
@@ -96,5 +84,3 @@ def parse_evtx_xml(xml_string):
     event_config = get_event_config(channel, provider, event_id)
 
     return event_config.process_evtx_record(tree)
-
-
