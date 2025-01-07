@@ -21,6 +21,16 @@ values:
       '11': 11_CachedInteractive
       '12': 12_CachedRemoteInteractive
       '13': 13_CachedUnlock
+  - name: TargetLogonId
+    correlation:
+      key: LogonId
+      search_fields:
+        - SubjectLogonId
+      uuid: false # use the correlation id as uuid (exact match) or not (exact match + temporal proximity)
+      enrich_fields:
+        - IpAddress
+        - WorkstationName
+      normalized: false
 references:
   - https://system32.eventsentry.com/security/event/4624
   - https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4624
