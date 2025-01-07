@@ -50,8 +50,6 @@ class EventConfig:
                 if not enrich_data:
                     continue
 
-                print(">>> found enrich data", self.event_id, enrich_data, key, value)
-
                 if normalized:
                     normalized_dict.update(enrich_data)
                 else:
