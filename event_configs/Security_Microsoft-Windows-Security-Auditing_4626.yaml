@@ -10,18 +10,18 @@ values:
   - name: LogonType
     key: LogonType
     value_mapping:
-      '2': Interactive
-      '3': Network
-      '4': Batch
-      '5': Service
-      '6': Proxy
-      '7': Unlock
-      '8': NetworkCleartext
-      '9': NewCredentials
-      '10': RemoteInteractive
-      '11': CachedInteractive
-      '12': CachedRemoteInteractive
-      '13': CachedUnlock
+      '2': 2_Interactive
+      '3': 3_Network
+      '4': 4_Batch
+      '5': 5_Service
+      '6': 6_Proxy
+      '7': 7_Unlock
+      '8': 8_NetworkCleartext
+      '9': 9_NewCredentials
+      '10': 10_RemoteInteractive
+      '11': 11_CachedInteractive
+      '12': 12_CachedRemoteInteractive
+      '13': 13_CachedUnlock
 references:
   - https://system32.eventsentry.com/security/event/4626
   - https://docs.microsoft.com/en-us/windows/security/threat-protection/auditing/event-4626
