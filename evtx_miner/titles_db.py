@@ -7,7 +7,7 @@ _titles_db: dict | None = None
 def _load_titles_db():
     with open(TITLES_CSV) as fin:
         csv_reader = csv.DictReader(fin)
-        return {(row['channel'], row['provider'], row['event_id']): row['title'] for row in csv_reader}
+        return {(row['channel'], row['provider'], int(row['event_id'])): row['title'] for row in csv_reader}
 
 
 def get_titles_db():
