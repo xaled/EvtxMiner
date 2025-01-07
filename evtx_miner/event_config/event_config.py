@@ -14,7 +14,7 @@ class EventConfig:
 
     def __init__(self, event_id: int, channel: str, provider: str, author: str = None, description: str = None,
                  title: str = None, event_type: str = None, data_processing: dict = None, values: list[dict] = None,
-                 references: list[str] = None):
+                 references: list[str] = None, **kwargs):
         self.event_id = event_id
         self.channel = channel
         self.provider = provider
@@ -99,7 +99,7 @@ class EventConfig:
             data_dict, to_delete, normalized_dict = _extract_values(data_dict)
 
             # Remove temps
-            data_dict = {_k: _v for _k, _v in data_dict.items() if k not in to_delete}
+            data_dict = {_k: _v for _k, _v in data_dict.items() if _k not in to_delete}
 
             return data_dict, normalized_dict, title
 

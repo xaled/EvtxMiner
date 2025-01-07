@@ -11,7 +11,7 @@ def _get_event_configs():
     if _event_configs is None:
         with open(COMPILED_CONFIGS_JSON) as fin:
             data = json.load(fin)
-        _event_configs = {(c['channel'], c['provider'], c['event_id']): c for c in data}
+        _event_configs = {(c['channel'], c['provider'], c['event_id']): EventConfig(**c) for c in data}
     return _event_configs
 
 

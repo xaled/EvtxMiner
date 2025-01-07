@@ -3,7 +3,7 @@ class Mapping:
 
     def __init__(self, mapping_dict: str | dict, default=None):
         self.map = mapping_dict
-        self.default = default or mapping_dict.pop('_default') or None
+        self.default = default or mapping_dict.pop('_default', None)
 
     def get_mapping(self, value):
         if value is None:
