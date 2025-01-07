@@ -8,7 +8,6 @@ event_type: null
 data_processing: null
 values:
   - name: Protocol
-    key: Protocol
     value_mapping:
       '0x00000006': TCP
       '0x00000011': UDP

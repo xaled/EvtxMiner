@@ -54,7 +54,6 @@ values:
       0XC00002EE: STATUS_UNFINISHED_CONTEXT_DELETED
       0XC0000413: STATUS_AUTHENTICATION_FIREWALL_FAILED
   - name: LogonType
-    key: LogonType
     value_mapping:
       '2': 2_Interactive
       '3': 3_Network

@@ -8,7 +8,6 @@ event_type: S
 data_processing: null
 values:
   - name: MandatoryLabel
-    key: MandatoryLabel
     value_mapping:
       S-1-16-0: SECURITY_MANDATORY_UNTRUSTED_RID (0x00000000)
       S-1-16-4096: SECURITY_MANDATORY_LOW_RID (0x00001000)

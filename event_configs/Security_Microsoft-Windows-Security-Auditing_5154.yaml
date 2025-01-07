@@ -9,7 +9,6 @@ event_type: S
 data_processing: null
 values:
   - name: Protocol
-    key: Protocol
     value_mapping:
       '1': Internet Control Message Protocol (ICMP)
       '3': Gateway-Gateway Protocol (GGP)

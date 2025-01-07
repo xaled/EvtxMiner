@@ -8,7 +8,6 @@ event_type: S
 data_processing: null
 values:
   - name: TicketEncryptionType
-    key: TicketEncryptionType
     value_mapping:
       '0x1': DES-CBC-CRC
       '0x3': DES-CBC-MD5

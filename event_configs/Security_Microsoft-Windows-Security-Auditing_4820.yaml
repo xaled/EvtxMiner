@@ -9,7 +9,6 @@ event_type: null
 data_processing: null
 values:
   - name: TicketEncryptionType
-    key: TicketEncryptionType
     value_mapping:
       '0x1': DES-CBC-CRC
       '0x3': DES-CBC-MD5
@@ -19,7 +18,6 @@ values:
       '0x18': RC4-HMAC-EXP
       '0xFFFFFFFF': '-'
   - name: PreAuthType
-    key: PreAuthType
     value_mapping:
       '0': '-'
       '2': PA-ENC-TIMESTAMP

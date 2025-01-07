@@ -8,7 +8,6 @@ event_type: null
 data_processing: null
 values:
   - name: SettingValue
-    key: SettingValue
     value_mapping:
       '01000000': Enable
       '00000000': Disable

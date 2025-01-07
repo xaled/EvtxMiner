@@ -8,17 +8,14 @@ event_type: null
 data_processing: null
 values:
   - name: Direction
-    key: Direction
     value_mapping:
       '1': Inbound
       '2': Outbound
   - name: Action
-    key: Action
     value_mapping:
       '2': Block
       '3': Allow
   - name: Protocol
-    key: Protocol
     value_mapping:
       '0x00000006': TCP
       '0x00000011': UDP

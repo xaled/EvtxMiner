@@ -8,7 +8,6 @@ event_type: null
 data_processing: null
 values:
   - name: Status
-    key: Status
     value_mapping:
       '0xC000005E': there are currently no logon servers available to service the
         logon request

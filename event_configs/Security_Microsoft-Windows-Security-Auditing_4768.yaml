@@ -9,7 +9,6 @@ event_type: S, F
 data_processing: null
 values:
   - name: Status
-    key: Status
     value_mapping:
       '0x00': KDC_ERR_NONE
       '0x1': KDC_ERR_NAME_EXP
@@ -70,7 +69,6 @@ values:
       '0x43': KRB_AP_ERR_NO_TGT
       '0x44': KDC_ERR_WRONG_REALM
   - name: TicketEncryptionType
-    key: TicketEncryptionType
     value_mapping:
       '0x1': DES-CBC-CRC
       '0x3': DES-CBC-MD5
@@ -80,7 +78,6 @@ values:
       '0x18': RC4-HMAC-EXP
       '0xFFFFFFFF': '-'
   - name: PreAuthType
-    key: PreAuthType
     value_mapping:
       '0': '-'
       '2': PA-ENC-TIMESTAMP

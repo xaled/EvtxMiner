@@ -8,7 +8,6 @@ event_type: S
 data_processing: null
 values:
   - name: AttributeSyntaxOID
-    key: AttributeSyntaxOID
     value_mapping:
       2.5.5.0: Undefined
       2.5.5.1: Object(DN-DN)

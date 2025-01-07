@@ -8,7 +8,6 @@ event_type: S, F
 data_processing: null
 values:
   - name: TicketEncryptionType
-    key: TicketEncryptionType
     value_mapping:
       '0x1': DES-CBC-CRC
       '0x3': DES-CBC-MD5
@@ -18,7 +17,6 @@ values:
       '0x18': RC4-HMAC-EXP
       '0xFFFFFFFF': '-'
   - name: Status
-    key: Status
     value_mapping:
       '0x00': KDC_ERR_NONE
       '0x1': KDC_ERR_NAME_EXP

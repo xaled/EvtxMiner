@@ -8,7 +8,6 @@ event_type: S, F
 data_processing: null
 values:
   - name: AccessList
-    key: AccessList
     value_mapping:
       '0x1': ReadData (or ListDirectory)
       '0x2': WriteData (or AddFile)

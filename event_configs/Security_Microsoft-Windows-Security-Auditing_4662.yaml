@@ -8,7 +8,6 @@ event_type: S, F
 data_processing: null
 values:
   - name: AccessMask
-    key: AccessMask
     value_mapping:
       '0x1': Create Child
       '0x2': Delete Child

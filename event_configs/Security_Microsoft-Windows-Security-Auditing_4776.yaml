@@ -8,7 +8,6 @@ event_type: S, F
 data_processing: null
 values:
   - name: Status
-    key: Status
     value_mapping:
       '0x0': STATUS_SUCCESS
       0XC000005E: STATUS_NO_LOGON_SERVERS
