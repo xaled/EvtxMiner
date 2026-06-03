@@ -8,8 +8,6 @@ logger = logging.getLogger(__name__)
 
 
 class _EventConfigDataProcessing:
-    __slots__ = 'key_prefix', 'type', 'split_separator', 'binary', 'extract_title'
-
     def __init__(self, key_prefix='payload', split_separator='\n\r', binary=None, extract_title=False, **kwargs):
         # default data processing options:
         # self.data_processing.setdefault('key_prefix', 'payload')

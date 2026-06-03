@@ -1,8 +1,6 @@
 import json
 from os import listdir, makedirs
 from os.path import join, basename, dirname
-from evtx import PyEvtxParser
-from lxml import etree as ET
 from .event_config import get_event_config
 from .xml_to_dict import clean_xml
 from .xpath import xpath
@@ -60,6 +58,8 @@ def convert_xml_file(filepath, dst_path):
 
 
 def parse_evtx_file(filepath):
+    from evtx import PyEvtxParser
+
     parser = PyEvtxParser(filepath)
     evtx_filename = basename(filepath)
     for ix, record in enumerate(parser.records()):
@@ -74,6 +74,8 @@ def parse_evtx_file(filepath):
 
 
 def parse_evtx_xml(xml_string):
+    from lxml import etree as ET
+
     xml_string = clean_xml(xml_string)
     tree = ET.fromstring(xml_string)
 
