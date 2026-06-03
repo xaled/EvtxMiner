@@ -9,13 +9,37 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-def convert_evtx_directory(input_dir, output_dir):
+def convert_evtx_directory(input_dir, output_dir, parallel=False):
     makedirs(output_dir, exist_ok=True)
+    jobs = list()
     for fn in listdir(input_dir):
         if fn.lower().endswith('.evtx'):
-            try:
                 filepath = join(input_dir, fn)
                 dst_path = join(output_dir, fn + '.jsonl')
+                jobs.append((filepath, dst_path))
+
+
+    if parallel:
+        from concurrent.futures import ProcessPoolExecutor, as_completed
+        with ProcessPoolExecutor() as executor:
+            future_to_job = {
+                executor.submit(convert_evtx_file, filepath, dst_path): (filepath, dst_path)
+                for filepath, dst_path in jobs
+            }
+
+            for future in as_completed(future_to_job):
+                filepath, dst_path = future_to_job[future]
+
+                try:
+                    future.result()
+                except Exception as e:
+                    logger.error(
+                        f"Error parsing file {filepath=} {e=}! Skipping file.",
+                        exc_info=True,
+                    )
+    else:
+        for filepath, dst_path in jobs:
+            try:
                 convert_evtx_file(filepath, dst_path)
             except Exception as e:
                 logger.error(f"Error parsing file {fn=} {e=}! Skipping file.", exc_info=True)
