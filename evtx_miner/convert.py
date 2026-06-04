@@ -1,5 +1,5 @@
 import json
-from os import listdir, makedirs
+from os import listdir, makedirs, stat
 from os.path import join, basename, dirname
 from .event_config import get_event_config
 from .xml_to_dict import clean_xml
@@ -13,8 +13,8 @@ def convert_evtx_directory(input_dir, output_dir, parallel=False):
     makedirs(output_dir, exist_ok=True)
     jobs = list()
     for fn in listdir(input_dir):
-        if fn.lower().endswith('.evtx'):
-                filepath = join(input_dir, fn)
+        filepath = join(input_dir, fn)
+        if fn.lower().endswith('.evtx') and stat(filepath).st_size > 0:
                 dst_path = join(output_dir, fn + '.jsonl')
                 jobs.append((filepath, dst_path))
 
